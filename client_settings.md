@@ -5,7 +5,7 @@ There are lots of client settings available, and this doc will guide you through
 ### Engine Settings
 
 | Settings      | Description           | Default value  |
-| ------------- |:-------------:| -----:|
+| ------------- | ------------- | ----- |
 | player_name      | Your nickname | nameless tee |
 | player_clan      | The name of your clan      |    |
 | password | Password to the server you want to join      |     |
