@@ -1,8 +1,8 @@
 # Support and Contact
 
-When using the forum, be sure to read the [Forum Rules](../rules/forum_rules).
+When using the forum, be sure to read the [Forum Rules](../rules/forum_rules.md).
 
-When any of the IRC channels, be sure to read the [IRC Channel Rules](../rules/irc_rules).
+When any of the IRC channels, be sure to read the [IRC Channel Rules](../rules/irc_rules.md).
 
 ### Support
 
@@ -10,7 +10,7 @@ If you run into troubles with running Teeworlds, there is a section in the forum
 
 ### Development and supplying patches
 
-If you want to help with the development, we suggest that you start at [Hacking](../hacking).
+If you want to help with the development, we suggest that you start at [Hacking](../hacking.md).
 
 ### The contact e-mail
 
