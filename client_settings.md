@@ -58,7 +58,7 @@ There are lots of client settings available, and this doc will guide you through
 ### Game settings
 
 | Settings      | Description           | Default value  |
-| ------------- |:-------------:| -----:|
+| ------------- | ------------- | ----- |
 | cl_predict| 	Use prediction| 	1| 
 | cl_nameplates| 	Show nameplates| 	0| 
 | cl_nameplates_always| 	Always show nameplates| 	0| 
