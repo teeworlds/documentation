@@ -10,7 +10,9 @@ If you want other players to be able to play on the server via internet, you hav
 
 To configure the server you need to create a .cfg-file so that the server knows what to do. Use your favorite text editor to create a config that uses the following syntax:
 
-```setting value
+```
+
+setting value
 setting2 value2
  ```
 To find the available settings, read the URLTOServer Settings doc.
@@ -19,8 +21,10 @@ To find the available settings, read the URLTOServer Settings doc.
 
 To start the server you must specify a config for it to load. This is done by adding the flag "-f" to the server start command, like this:
 
- ```teeworlds_srv -f serverconfig.cfg
-  ```
+ ```
+ 
+ teeworlds_srv -f serverconfig.cfg
+ ```
 
 ##### Windows
 
@@ -28,8 +32,10 @@ Start the command tolk by pressing Windows key+R, write "cmd" followed by enter,
 
 When you get there, start the server by typing
 
- ```teeworlds_srv.exe -f serverconfig.cfg
-  ```
+ ```
+ 
+ teeworlds_srv.exe -f serverconfig.cfg
+ ```
 where you replace "serverconfig.cfg" with the name of your config file.
 
 ##### Linux
@@ -38,8 +44,10 @@ Open up a terminal and use the command "cd" to enter the teeworlds directory.
 
 To start the server, type
 
- ```teeworlds_srv -f serverconfig.cfg
-  ```
+ ```
+ 
+ teeworlds_srv -f serverconfig.cfg
+ ```
 where you replace "serverconfig.cfg" with the name of your config file.
 
 ### Remote console
