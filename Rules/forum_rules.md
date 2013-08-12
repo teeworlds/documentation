@@ -1,6 +1,7 @@
 # Forum Rules
 
 These are the rules and the moderation guidelines for the forum. Note that moderators may always take any action they deem necessary, considering the circumstances. Breaking a rule is always a bannable offense.
+
 ---
 
 ### Before posting
@@ -26,6 +27,7 @@ Breaking these rules will most likely result in a warning.
 	* Moderators may delete offensive posts and ban users at their leisure.
 6. **Stay on topic**
 	* Spam, "me too"-posts and similar content of low information value may be deleted. *This includes memes*.
+
 ### Forum Moderation
 
 1. **Use the report function**
