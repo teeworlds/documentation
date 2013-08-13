@@ -16,13 +16,12 @@ You have probably not setup your router correctly. See http://portforward.com fo
 
 **Q: Why doesn't my 0.x.x-config work in 0.4.x?**
 
-The configuration file syntax has changed. Try replaceing all the = with space, and read this documentation.
+The configuration file syntax has changed. Try replaceing all the `=` with space, and read this documentation.
 
 ## Example configurations
 
 ### Sample DM config
 ```
-
 sv_name Teeworlds sample dm
 sv_map dm1
 sv_scorelimit 20
@@ -35,7 +34,6 @@ sv_spectator_slots 10
 ```
 ### Sample TDM config
 ```
-
 sv_name Teeworlds sample tdm
 sv_map dm6
 sv_scorelimit 50
@@ -46,7 +44,6 @@ sv_motd Teeworlds sample tdm configuration
 
 ### Sample CTF config
 ```
-
 sv_name Teeworlds sample ctf
 sv_map ctf2
 sv_scorelimit 400
