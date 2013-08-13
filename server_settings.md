@@ -10,7 +10,7 @@ To change the game's physics, read the [Server Tuning](../server_tuning.md) doc.
 
 ### Engine settings
 
-* means it can't be changed while running the server.
+`*` means it can't be changed while running the server.
 
 |Settings|	Description|	Default|
 | ------ | ---------- | -------- |
