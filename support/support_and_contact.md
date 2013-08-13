@@ -12,6 +12,10 @@ If you run into troubles with running Teeworlds, there is a section in the forum
 
 If you want to help with the development, we suggest that you start at [Hacking](../hacking.md).
 
-### The contact e-mail
+## Contact
 
-The contact@teeworlds.com email address is intended for serious business only. We will not give support related to running the game, server hosting, compiling the game, etc. Take those questions in the forum. Keep in mind when using this address that we only can speak English (preferred) and Swedish.
+These are the ways you can contact us for different topics of concern:
+
+- General questions and chatting should take place on the [forum](https://www.teeworlds.com/forum/) or on [IRC](../rules/irc_rules.md).
+- Issues with registering at the forum or found a bug on the website? Send a mail to forum@teeworlds.com
+- Important inqueries or legal stuff? Use this email address: contact@teeworlds.com, which is intended for serious business only. We will not give support related to running the game, server hosting, compiling the game, etc. Take those questions in the forum. Keep in mind when using this address that we only can speak English (preferred) and Swedish.
