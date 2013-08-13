@@ -8,9 +8,9 @@
 ### FAQ
 
 **Q: How do I get rid of these errors?**
-
-`undefined reference to `__stack_chk_guard'`
-
+```
+undefined reference to `__stack_chk_guard'
+```
 Remove
 
 `-fstack-protector -fstack-protector-all`
@@ -31,7 +31,6 @@ from bam.lua (in 0.5.2 and earlier default.bam) in Teeworlds root directory and 
 
 Run in cmd (start>run>cmd):
 ```
-
 cd bam
 make_win32_msvc.bat
 cd ..
@@ -41,7 +40,6 @@ cd ..
 
 Run in cmd (start->run->cmd):
 ```
-
 %comspec% /k ""C:\Program Files\Microsoft Visual Studio 9.0\VC\vcvarsall.bat"" x86
 
 cd teeworlds-version-src 
@@ -71,13 +69,13 @@ for debug version of server.
 
 Use your package manager (apt-get, emerge or whatever is used on your distribution) to install the following (you will need the header files):
 
-python
-alsa (asound)
-gl
-glu
-x11
-libsdl
-freetype
+- python
+- alsa (asound)
+- gl
+- glu
+- x11
+- libsdl
+- freetype
 
 (python is the only one which is required to build server)
 
@@ -90,7 +88,6 @@ Install the XCode tools from apple. Download libsdl from the http://libsdl.org a
 Run the following commands to download and unzip bam and teeworlds:
 **Replace VERSION in teeworlds-VERSION-src.zip with the version you want (probably the latest, 0.6.0)**
 ```
-
 $ fetch http://teeworlds.com/files/bam-0.4.0.zip
 $ unzip bam.zip
 $ rm bam.zip
@@ -101,7 +98,6 @@ $ rm teeworlds-VERSION-src.zip
 
 ##### Compiling bam
 ```
-
 $ cd bam
 $ ./make_unix.sh
 $ cd ..
@@ -109,7 +105,6 @@ $ cd ..
 
 #### Compiling teeworlds
 ```
-
 $ cd teeworlds-VERSION-src
 
 $ ../bam/bam release
