@@ -30,7 +30,7 @@ where you replace "gravity 1.0" with the variable and value you want.
 
 ### Weapon tuning
 
-Tuning	Description	Default
+|Tuning	|Description|	Default|
 | ------ | ---------- | -------- |
 |gun_curvature|	Gun curvature|	1.25|
 |gun_speed|	Gun speed|	2200.0|
