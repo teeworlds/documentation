@@ -22,13 +22,21 @@ To change the game's physics, read the [Server Tuning](../server_tuning.md) doc.
 |sv_max_clients_per_ip|	Number of clients with the same ip that can be connected to the server at the same time|	12|
 |sv_high_bandwidth *|	Use high bandwidth mode, for LAN servers only|	0|
 |sv_register|	Register on the master servers|	1|
-|sv_map	Map to use|	dm1|
+|sv_map|	Map to use|	dm1|
 |sv_rcon_password|	Password to access the remote console (if not set, rcon is disabled)|  |	
 |password|	Password to connect to the server|	|
 |logfile|	Path to a logfile| |	
 |console_output_level|	Adjust the amount of messages in the console|	0|
 |sv_rcon_max_tries|	Maximum number of tries for remote console authetication|	3|
 |sv_rcon_bantime|	Time (in minutes) a client gets banned if remote console authentication fails (0 makes it just use kick)|	5|
+|sv_auto_demo_record| Automatically record demos| 0|
+|sv_auto_demo_max| Maximum number of automatically recorded demos (0 = no limit)| 10|
+|ec_bindaddr|Address to bind the external console to. Anything but 'localhost' is dangerous"|localhost|
+|ec_port|Port to use for the external console||
+|ec_password|External console password"||
+|ec_bantime|The time a client gets banned if econ authentication fails. 0 just closes the connection|0|
+|ec_auth_timeout|Time in seconds before the the econ authentification times out|30|
+|ec_output_level|Adjusts the amount of information in the external console|1|
 
 ### Game settings
 
