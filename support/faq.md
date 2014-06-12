@@ -23,7 +23,7 @@
 
 **Q: How do I setup a server?**
 
-**A:** Take a look at the [Setting up a server page](../settingup_server).
+**A:** Take a look at the [Setting up a server page](../server_setup.md).
 
 **Q: How do I setup a server on Mac OS X?**
 
@@ -48,4 +48,4 @@
 
 **Q: How do I compile the source?**
 
-**A:** There is a separate document for this located [here](../compiling_everything).
+**A:** There is a separate document for this located [here](../compiling_everything.md).

@@ -1,6 +1,6 @@
 # Client Configuration
 
-To find the configuration file for Teeworlds, you can read this guide. If you want to configure the client, check out [Client Settings](../client_settings.md). If you want to find the client commands available, see [Client Commands](../client_commands.md). The client configuration file is located in different locations depending on the operating system.
+To find the configuration file for Teeworlds, you can read this guide. If you want to configure the client, check out [Client Settings](client_settings.md). If you want to find the client commands available, see [Client Commands](client_commands.md). The client configuration file is located in different locations depending on the operating system.
 
 ### Windows
 

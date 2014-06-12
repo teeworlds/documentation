@@ -1,12 +1,12 @@
 # Server Settings
 
-There are lots of server settings to change all from the score limit, to the speed of the shotgun. This doc will show you what those are, not how to set up a server. Read the [Server Setup](../serversetup.md) doc to learn that. For server commands, see the [Server Commands](../server_commands.md) doc.
+There are lots of server settings to change all from the score limit, to the speed of the shotgun. This doc will show you what those are, not how to set up a server. Read the [Server Setup](server_setup.md) doc to learn that. For server commands, see the [Server Commands](server_commands.md) doc.
 
 **Syntax:** setting value
 
 ### Physics settings
 
-To change the game's physics, read the [Server Tuning](../server_tuning.md) doc.
+To change the game's physics, read the [Server Tuning](server_tuning.md) doc.
 
 ### Engine settings
 

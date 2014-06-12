@@ -54,4 +54,4 @@ sv_motd Teeworlds sample ctf configuration
 
 ## Server settings and commands
 
-For server settings see [Server Settings](../server_settings.md) and for server commands see [Server Commands](../server_commands.md).
+For server settings see [Server Settings](server_settings.md) and for server commands see [Server Commands](server_commands.md).

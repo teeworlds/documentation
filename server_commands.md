@@ -1,6 +1,6 @@
 # Server Commands
 
-To kick players from the server and to do other similar things, you have to use the server commands. This doc will show you these. If you want to know how to set up a server, read the [Server Setup](../server_setup.md) doc. For server settings, see the [Server Settings](../server_settings.md) doc.
+To kick players from the server and to do other similar things, you have to use the server commands. This doc will show you these. If you want to know how to set up a server, read the [Server Setup](server_setup.md) doc. For server settings, see the [Server Settings](server_settings.md) doc.
 
 ### Commands
 
@@ -17,7 +17,7 @@ To kick players from the server and to do other similar things, you have to use 
 |reload|	reload|	Reload the map|
 |record|	record filename|	Start recording|
 |stoprecord|	stoprecord|	Stop recording|
-|tune|	tune variable value|	Tune the variable. See the [Server Tuning](../server_tuning.md) doc|
+|tune|	tune variable value|	Tune the variable. See the [Server Tuning](server_tuning.md) doc|
 |tune_reset|	tune_reset|	Reset the tuning to default|
 |tune_dump|	tune_dump|	Make a dump that shows what tuning is used|
 |change_map|	change_map mapname|	Change to the specified map|

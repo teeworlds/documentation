@@ -1,6 +1,6 @@
 ## Basic Info
 
-- [Compiling Everything](../blob/master/compiling_everything)
+- [Compiling Everything](compiling_everything.md)
 - [Github](https://github.com/teeworlds/teeworlds) (Issue, task tracing, sending in of patches and much much more)
 
 ## Communication

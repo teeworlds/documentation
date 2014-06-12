@@ -1,6 +1,6 @@
 # Client Commands
 
-There are lots of client commands that can be executed in the console, or in the configuration file. This doc shows them all. If you look for client settings, read the [Client Settings](../client_settings.md) doc. To find out how to find the config file, read the [Client Config](../client_config.md)doc.
+There are lots of client commands that can be executed in the console, or in the configuration file. This doc shows them all. If you look for client settings, read the [Client Settings](client_settings.md) doc. To find out how to find the config file, read the [Client Config](client_config.md)doc.
 
 ### Console
 
