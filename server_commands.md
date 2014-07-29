@@ -12,7 +12,7 @@ To kick players from the server and to do other similar things, you have to use 
 |`ban`|	ban ip/id minutes|	Ban the ip from the server for the given time|
 |`unban`|	unban ip|	Unban the ip|
 |`bans`|	bans|	Show a list of bans|
-|`status`	|status|	List the players' id, ip, name and score|
+|`status`	|status|	List the player's id, ip, name and score|
 |`shutdown`|	shutdown|	Shut the server down|
 |`reload`|	reload|	Reload the map|
 |`record`|	record filename|	Start recording|
@@ -28,6 +28,6 @@ To kick players from the server and to do other similar things, you have to use 
 |`set_team_all`|	set_team_all team_id|	Move all players to a specific team|
 |`add_vote`|	add_vote description command|	Add a vote option for the provided command with the provided description ( description is optional)|
 |`remove_vote`|	remove_vote command|	remove a vote option|
-|`force_vote`|force_vote type option/player_id reason	|Force a certain vote to be executed immedeatly (type can be "option", "kick" or "spectate")|
+|`force_vote`|force_vote type option/player_id reason	|Force a certain vote to be executed immediately (type can be "option", "kick" or "spectate")|
 |`clear_votes`|	clear votes	|remove all vote options|
 |`vote`|	vote yes/no|	Force the end result of the vote to yes/no|

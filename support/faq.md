@@ -4,7 +4,7 @@
 
 **Q: Why doesn't the game start? This is the first time I run it.**
 
-**A:** The game uses OpenGL todo the acceleration. Make sure that you have installed the latest drivers for you graphics card.
+**A:** The game uses OpenGL to do the acceleration. Make sure that you have installed the latest drivers for you graphics card.
 
 **Q: The game stopped working, how do I fix it?**
 
@@ -27,7 +27,7 @@
 
 **Q: How do I setup a server on Mac OS X?**
 
-**A:** Just click on the "Teeworlds Server" application bundle, you will then be prompted for a configuartion file to use for the server.
+**A:** Just click on the "Teeworlds Server" application bundle, you will then be prompted for a configuration file to use for the server.
 
 **Q: Why isn't my server listed?**
 

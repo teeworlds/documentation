@@ -3,7 +3,7 @@
 Tuning is a way to edit physics and weapon settings so that the server is more customizable. To tune a variable, execute the following in rcon or config:
 
 `tune gravity 1.0`
-where you replace "gravity 1.0" with the variable and value you want.
+where you replace `gravity 1.0` with the variable and value you want.
 
 ### Physics tuning
 
@@ -39,7 +39,7 @@ where you replace "gravity 1.0" with the variable and value you want.
 |`shotgun_speed`|	Shotgun speed|	2750.0|
 |`shotgun_speeddiff`|	Speed difference between shotgun bullets|	0.8|
 |`shotgun_lifetime`|	Shotgun lifetime|	0.20|
-|`grenade_curvature`|	Grenade curvaturev	7.0|
+|`grenade_curvature`|	Grenade curvature	7.0|
 |`grenade_speed`|	Grenade speed|	1000.0|
 |`grenade_lifetime`|	Grenade lifetime|	2.0|
 |`laser_reach`|	How long the laser can reach|	800.0|
@@ -47,4 +47,3 @@ where you replace "gravity 1.0" with the variable and value you want.
 |`laser_bounce_num`|	How many times the laser can bounce|	1.0|
 |`laser_bounce_cost`|	Remove this much from reach when laser is bouncing|	0.0|
 |`laser_damage`|	Laser damage|	5.0|
-
