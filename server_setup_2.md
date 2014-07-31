@@ -16,7 +16,7 @@ You have probably not setup your router correctly. See http://portforward.com fo
 
 **Q: Why doesn't my 0.x.x-config work in 0.4.x?**
 
-The configuration file syntax has changed. Try replaceing all the `=` with space, and read this documentation.
+The configuration file syntax has changed. Try replacing all the `=` with space, and read this documentation.
 
 ## Example configurations
 

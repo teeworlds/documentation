@@ -14,4 +14,4 @@ The config-file is stored at `~/.teeworlds/settings.cfg`. Just run this command 
 
 ### OSX
 
-Delete settings.cfg in `~/Library/Application Support/Teeworlds`.
+Delete `settings.cfg` in `~/Library/Application Support/Teeworlds`.

@@ -1,6 +1,5 @@
-All code in teeworlds should match this code guidelines.
+#All code in teeworlds should match this code guidelines.
 
----
 
 ### Brackets and Such
 
@@ -9,7 +8,6 @@ Hardtabs, tabsize 4.
 Use Allman style brackets like this:
 
 ```
-
 if(MyInt != 5)
 {
 	while(MyInt)
@@ -26,7 +24,7 @@ Use `//` style comments for most things. Larger blocks of comments can use `/* *
 
 ### Identifiers
 
-Use [NEEDS URL]CamelCase with upper case on the first letter as well.
+Use [CamelCase](http://en.wikipedia.org/wiki/CamelCase) with upper case on the first letter as well.
 
 ### Variable Prefixes
 
@@ -50,7 +48,7 @@ Pointer
 
 Fixed array
 
-Combine them appropriatly.
+Combine them appropriately.
 
 ### Class Prefixes
 
@@ -67,7 +65,6 @@ Interface, IMyClass
 Pass by value for smaller things, const reference for larger objects. By pointer if the function needs to modify the object. Don't cast values as just a reference. If the function needs to modify it, use a pointer to show it as well.
 
 ```
-
 void MyFunction(int MyVar);
 void MyFunction(const CMyClass &MyVar);
 void MyFunction(int *pMyVar);
@@ -78,7 +75,6 @@ void MyFunction(int &pMyVar); // Never do this!
 ### Examples
 
 ```
-
 class IMyInterface
 {
 public:
