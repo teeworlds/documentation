@@ -15,7 +15,7 @@ To change the game's physics, read the [Server Tuning](server_tuning.md) doc.
 |Settings|	Description|	Default|
 | ------ | ---------- | -------- |
 |`sv_name` |	Name of the server|	unnamed server|
-|`sv_bindaddr` *|	Address to bind	| |
+|`bindaddr` *|	Address to bind	| |
 |`sv_port` *|	Port the server will listen on|	8303|
 |`sv_external_port` *|	Port to report to the master servers (e.g. in case of a firewall rename)|	0|
 |`sv_max_clients` *|	Number of clients that can be connected to the server at the same time|	12|
