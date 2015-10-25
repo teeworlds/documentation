@@ -14,7 +14,7 @@
 
 **A:** Try these following solutions:
 
-- Delete the settings file. Here is how to do that.
+- Delete the settings file. See [Client Config](../client_config.md) to find the configuration file.
 - Make sure that you have the latest drivers for your graphics card installed.
 - Make sure that you have unpacked everything.
 - Make sure that you start the game from it's own directory.
