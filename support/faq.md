@@ -8,7 +8,7 @@
 
 **Q: The game stopped working, how do I fix it?**
 
-**A:** Probably something has gone wrong with the config. Delete the settings file. Here is how to do that.
+**A:** Probably something has gone wrong with the config. The easiest thing to try is deleting the `settings.cfg`. See [Client Config](../client_config.md) to find the configuration file.
 
 **Q: I have Graphical errors, white and rainbow textures, low FPS etc**
 
