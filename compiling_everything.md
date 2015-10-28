@@ -1,6 +1,5 @@
 # Compiling Teeworlds
 
-
 **IMPORTANT NOTE:** Teeworlds 0.5.2 and earlier requires python 2.x to compile. Python 3.x will not work. Python 3.x support is introduced with Teeworlds 0.6.0.
 
 **Also:** If you are using bam 0.2.0 (needed for Teeworlds 0.5.2 and earlier) the bam binary will not be in the bam directory, but in bam/src. You will need to change the paths accordingly to that or copy/move the bam executable to the bam directory.
@@ -8,15 +7,16 @@
 ### FAQ
 
 **Q: How do I get rid of these errors?**
+
 ```
 undefined reference to `__stack_chk_guard'
 ```
-Remove
 
-`-fstack-protector -fstack-protector-all`
-from bam.lua (in 0.5.2 and earlier default.bam) in Teeworlds root directory and then run
+Remove `-fstack-protector -fstack-protector-all` from bam.lua (in 0.5.2 and earlier default.bam) in Teeworlds root directory and then run
 
-`../bam/bam -c all`
+```
+../bam/bam -c all
+```
 
 ### Windows
 
@@ -30,6 +30,7 @@ from bam.lua (in 0.5.2 and earlier default.bam) in Teeworlds root directory and 
 ##### Compiling bam
 
 Run in cmd (start>run>cmd):
+
 ```
 cd bam
 make_win32_msvc.bat
@@ -39,6 +40,7 @@ cd ..
 ##### Compiling teeworlds
 
 Run in cmd (start->run->cmd):
+
 ```
 %comspec% /k ""C:\Program Files\Microsoft Visual Studio 9.0\VC\vcvarsall.bat"" x86
 
@@ -46,6 +48,7 @@ cd teeworlds-version-src
 
 ..\bam\bam
 ```
+
 This will build the client and server.
 
 Bam parameters are described in a later section.
@@ -76,6 +79,7 @@ Install the XCode tools from apple. Download libsdl from the http://libsdl.org a
 
 Run the following commands to download and unzip bam and teeworlds:
 **Replace VERSION in teeworlds-VERSION-src.zip with the version you want (probably the latest, 0.6.0)**
+
 ```
 $ fetch http://github.com/downloads/matricks/bam/bam-0.4.0.zip
 $ unzip bam.zip
@@ -103,9 +107,9 @@ $ ../bam/bam
 
 ### Bam parameters
 
-By default, Teeworlds compiles in debug mode. To compile in release mode, add `conf=release` to the bam arguments.
+By default, Teeworlds compiles in debug mode. To compile in release mode, add `conf=release` to the bam arguments. E.g.:
 
-E.g. `$ ../bam/bam conf=release`
+`$ ../bam/bam conf=release`
 
 By default, Teeworlds compiles the `game` target, i.e. the client and server. Available targets are:
 - game (client and server)
@@ -115,4 +119,5 @@ By default, Teeworlds compiles the `game` target, i.e. the client and server. Av
 - masterserver
 
 E.g. to build the tools and master server in release mode use following arguments:
+
 `$ ../bam/bam conf=release tools masterserver`
