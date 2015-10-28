@@ -80,6 +80,15 @@ Install the XCode tools from apple. Download libsdl from the http://libsdl.org a
 Run the following commands to download and unzip bam and teeworlds:
 **Replace VERSION in teeworlds-VERSION-src.zip with the version you want (probably the latest, 0.6.0)**
 
+Using `wget`:
+
+```
+$ wget -qO- http://github.com/downloads/matricks/bam/bam-0.4.0.tar.bz2 | tar xj
+$ wget -qO- https://downloads.teeworlds.com/files/teeworlds-VERSION-src.zip | tar xj
+```
+
+Alternatively, using `fetch`:
+
 ```
 $ fetch http://github.com/downloads/matricks/bam/bam-0.4.0.zip
 $ unzip bam.zip
