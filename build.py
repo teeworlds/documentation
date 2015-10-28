@@ -41,5 +41,5 @@ for root, dirs, files in os.walk("."):
 					else:
 						return "[{}]({})".format(match.group(1), match.group(2)+".html")
 				data = re.sub(r"\[([^\]]+)]\(\s*([^\)]+)\.md\s*\)", link_patcher, data)
-				html = m.html(data, extensions=m.EXT_TABLES, render_flags=m.HTML_USE_XHTML)
+				html = m.html(data, extensions=m.EXT_TABLES | m.EXT_FENCED_CODE, render_flags=m.HTML_USE_XHTML)
 				out.write(html)
