@@ -1,7 +1,7 @@
 # Compiling Teeworlds
 
 
-**IMPORTANT NOTE:** Teeworlds 0.5.2 and earlier requires python 2.x to compile. Python 3.0 will not work. Python 3.0 support is introduced with Teeworlds 0.6.0.
+**IMPORTANT NOTE:** Teeworlds 0.5.2 and earlier requires python 2.x to compile. Python 3.x will not work. Python 3.x support is introduced with Teeworlds 0.6.0.
 
 **Also:** If you are using bam 0.2.0 (needed for Teeworlds 0.5.2 and earlier) the bam binary will not be in the bam directory, but in bam/src. You will need to change the paths accordingly to that or copy/move the bam executable to the bam directory.
 
@@ -23,9 +23,9 @@ from bam.lua (in 0.5.2 and earlier default.bam) in Teeworlds root directory and 
 ##### Setup
 
 1. Download and install Visual C/C++ Express (http://www.microsoft.com/express/download/default.aspx) 
-2. Download and install Python (http://www.python.org/download/). (for Teeworlds 0.5.2 and earlier the 2.x version, not 3.x)
+2. Download and install Python (https://www.python.org/download/). (for Teeworlds 0.5.2 and earlier the 2.x version, not 3.x)
 3. Download and unzip bam (0.2.0 for Teeworlds 0.5.2 and earlier, 0.4.0 for Teeworlds 0.6.0 and later) 
-4. Download and unzip teeworlds (http://www.teeworlds.com/?page=downloads) 
+4. Download and unzip teeworlds (https://www.teeworlds.com/?page=downloads) 
 
 ##### Compiling bam
 
@@ -44,22 +44,11 @@ Run in cmd (start->run->cmd):
 
 cd teeworlds-version-src 
 
-..\bam\bam release
+..\bam\bam
 ```
+This will build the client and server.
 
-for all stuff,
-
-`..\bam\bam server_release`
-
-for server only,
-
-`..\bam\bam debug`
-
-for debug version of all,
-
-`..\bam\bam server_debug`
-
-for debug version of server.
+Bam parameters are described in a later section.
 
 ### Linux / Mac
 
@@ -88,10 +77,10 @@ Install the XCode tools from apple. Download libsdl from the http://libsdl.org a
 Run the following commands to download and unzip bam and teeworlds:
 **Replace VERSION in teeworlds-VERSION-src.zip with the version you want (probably the latest, 0.6.0)**
 ```
-$ fetch http://teeworlds.com/files/bam-0.4.0.zip
+$ fetch http://github.com/downloads/matricks/bam/bam-0.4.0.zip
 $ unzip bam.zip
 $ rm bam.zip
-$ fetch http://teeworlds.com/files/teeworlds-VERSION-src.zip
+$ fetch https://downloads.teeworlds.com/files/teeworlds-VERSION-src.zip
 $ unzip teeworlds-VERSION-src.zip
 $ rm teeworlds-VERSION-src.zip
 ```
@@ -104,23 +93,26 @@ $ cd ..
 ```
 
 #### Compiling teeworlds
+This will build the client and server.
+
 ```
 $ cd teeworlds-VERSION-src
 
-$ ../bam/bam release
+$ ../bam/bam
 ```
 
-for all stuff,
+### Bam parameters
 
-`$ ../bam/bam server_release`
+By default, Teeworlds compiles in debug mode. To compile in release mode, add `conf=release` to the bam arguments.
 
-for server only,
+E.g. `$ ../bam/bam conf=release`
 
-`$ ../bam/bam debug`
+By default, Teeworlds compiles the `game` target, i.e. the client and server. Available targets are:
+- game (client and server)
+- client
+- server
+- tools
+- masterserver
 
-for debug version of all,
-
-`$ ../bam/bam server_debug`
-
-for debug version of server.
-
+E.g. to build the tools and master server in release mode use following arguments:
+`$ ../bam/bam conf=release tools masterserver`
