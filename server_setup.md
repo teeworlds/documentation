@@ -13,7 +13,8 @@ To configure the server you need to create a .cfg-file so that the server knows 
 ```
 setting value
 setting2 value2
- ```
+```
+
 To find the available settings, read the [Server Settings](server_settings.md) doc.
 
 ### Starting the server
