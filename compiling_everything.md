@@ -20,7 +20,7 @@ Remove `-fstack-protector -fstack-protector-all` from bam.lua (in 0.5.2 and earl
 
 **Q: What is BAM?**
 
-Is the [build system made by matricks](http://matricks.github.io/bam/) used in Teeworlds.
+Bam is the [build system made by matricks](http://matricks.github.io/bam/) used in Teeworlds.
 
 
 # Windows
@@ -44,7 +44,7 @@ Is the [build system made by matricks](http://matricks.github.io/bam/) used in T
     ```
     setx PATH "%PATH%;C:\MinGW\bin;C:\Program Files (x86)\GnuWin32\bin;"
     ```
-2. Launch `make_win32_mingw.bat` script for compile bam.
+2. Launch `make_win32_mingw.bat` script to compile bam.
     - Run in cmd (start>run>cmd):
     ```
     cd <folder_where_unzipped_bam_package>
@@ -70,7 +70,7 @@ Bam parameters are described in a later section.
 
 ##### Compiling bam
 
-1. Launch `make_win32_msvc.bat` script for compile bam.
+1. Launch `make_win32_msvc.bat` script to compile bam.
     - Run in cmd (start>run>cmd):
     ```
     cd <folder_where_unzipped_bam_package>
@@ -154,7 +154,7 @@ $ ../bam/bam
 ```
 
 # Bam parameters
-For advance options see [bam documentation](http://matricks.github.io/bam/bam.html#5).
+For more advanced options check the [bam documentation](http://matricks.github.io/bam/bam.html#5).
 
 ##### v0.4.0 and earlier
 Available targets are:
@@ -165,7 +165,7 @@ Available targets are:
 - client_release
 - client_debug
 
-E.g. to build server debug use following arguments:
+E.g. to build server debug use the following arguments:
 
 `$ ../bam/bam server_debug`
 
@@ -181,6 +181,6 @@ By default, Teeworlds compiles the `game` target, i.e. the client and server. Av
 - tools
 - masterserver
 
-E.g. to build the tools and master server in release mode use following arguments:
+E.g. to build the tools and master server in release mode use the following arguments:
 
 `$ ../bam/bam conf=release tools masterserver`
