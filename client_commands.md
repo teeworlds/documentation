@@ -38,11 +38,11 @@ All these commands can be executed in the console. To open the console, press th
 |`+jump`|	+jump|	Jump|
 |`+hook`|	+hook|	Fire hook|
 |`+fire`|	+fire|	Fire a shot|
-|`+weapon`1|	+weapon1|	Switch to weapon 1 (hammer)|
-|`+weapon`2|	+weapon2|	Switch to weapon 2 (gun)|
-|`+weapon`3|	+weapon3|	Switch to weapon 3 (shotgun)|
-|`+weapon`4|	+weapon4|	Switch to weapon 4 (grenade launcher)|
-|`+weapon`5|	+weapon5|	Switch to weapon 5 (rifle)|
+|`+weapon1`|	+weapon1|	Switch to weapon 1 (hammer)|
+|`+weapon2`|	+weapon2|	Switch to weapon 2 (gun)|
+|`+weapon3`|	+weapon3|	Switch to weapon 3 (shotgun)|
+|`+weapon4`|	+weapon4|	Switch to weapon 4 (grenade launcher)|
+|`+weapon5`|	+weapon5|	Switch to weapon 5 (rifle)|
 |`+nextweapon`|	+nextweapon|	Switch to the next weapon|
 |`+prevweapon`|	+prevweapon	|Switch to the previous weapon|
 |`callvote`|	callvote type value|	Call a vote|
@@ -70,4 +70,3 @@ All these commands can be executed in the console. To open the console, press th
 |`dump_remote_console`|	dump_remote_console|	Dump the remote console|
 |`team`|	team team_id|	Switch to the specified team (0 = red, 1 = blue, -1 = spectators)|
 |`kill`|	kill|	Kill yourself|
-

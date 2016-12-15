@@ -12,7 +12,7 @@ There are lots of client settings available, and this doc will guide you through
 |`logfile`  | Path to a logfile  |   |  
 |`console_output_level`	| Adjust the amount of messages in the console | 0 |
 |`cl_cpu_throttle` | Add a sleep after each tick | 0 |
-|`cl_editor`	Activate | the editor (Only ingame)	| 0 |
+|`cl_editor` | Activate the editor (Only ingame)	| 0 |
 |`cl_auto_demo_record` | 	Activate automatic demo-reccording| 	0|
 |`cl_auto_demo_max` | 	Maximum number of automatically recorded demos| 	10|
 |`cl_auto_screenshot`| 	Activate automatic screenshots at the end of rounds| 	0|
