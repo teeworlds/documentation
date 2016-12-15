@@ -18,34 +18,45 @@ Remove `-fstack-protector -fstack-protector-all` from bam.lua (in 0.5.2 and earl
 ../bam/bam -c all
 ```
 
-### Windows
+**Q: What is BAM?**
 
-##### Setup
+Is the [build system made by matricks](http://matricks.github.io/bam/) used in Teeworlds.
 
-1. Download and install Visual C/C++ Express (http://www.microsoft.com/express/download/default.aspx) 
-2. Download and install Python (https://www.python.org/download/). (for Teeworlds 0.5.2 and earlier the 2.x version, not 3.x)
-3. Download and unzip bam (0.2.0 for Teeworlds 0.5.2 and earlier, 0.4.0 for Teeworlds 0.6.0 and later) 
-4. Download and unzip teeworlds (https://www.teeworlds.com/?page=downloads) 
 
-##### Compiling bam
+# Windows
 
-Run in cmd (start>run>cmd):
+1. Download and unzip bam
+    - [v0.2.0](http://github.com/downloads/matricks/bam/bam-0.2.0.zip) for Teeworlds 0.5.2 and earlier
+    - [v0.4.0](http://github.com/downloads/matricks/bam/bam-0.4.0.zip) for Teeworlds 0.6.x
+    - [v0.5.0](https://github.com/matricks/bam/archive/v0.5.0.zip) for Teeworlds 0.7.0 and later
+2. Download and install [Python](https://www.python.org/download/) (for Teeworlds 0.5.2 and earlier the 2.x version, not 3.x).
+4. Download and unzip [Teeworlds](https://www.teeworlds.com/?page=downloads).
 
-```
-cd bam
-make_win32_msvc.bat
-cd ..
-```
+### Setup (Using GNU Tools)
 
-##### Compiling teeworlds
+1. Download and install [MinGW](http://sourceforge.net/projects/mingw/files/latest/download?source=files). Select 'mingw32-gcc-g++' package inside MinGW installer.
+2. Download and install [ZLib](http://gnuwin32.sourceforge.net/downlinks/zlib.php).
+
+##### Compiling BAM
+
+1. Update 'PATH' windows environment variable including MinGW and zlib bin folders.
+    - Run in cmd (start>run>cmd):
+    ```
+    setx PATH "%PATH%;C:\MinGW\bin;C:\Program Files (x86)\GnuWin32\bin;"
+    ```
+2. Launch `make_win32_mingw.bat` script for compile bam.
+    - Run in cmd (start>run>cmd):
+    ```
+    cd <folder_where_unzipped_bam_package>
+    make_win32_mingw.bat
+    ```
+
+##### Compiling Teeworlds
 
 Run in cmd (start->run->cmd):
 
 ```
-%comspec% /k ""C:\Program Files\Microsoft Visual Studio 9.0\VC\vcvarsall.bat"" x86
-
-cd teeworlds-version-src 
-
+cd teeworlds-version-src
 ..\bam\bam
 ```
 
@@ -53,7 +64,35 @@ This will build the client and server.
 
 Bam parameters are described in a later section.
 
-### Linux / Mac
+### Setup (Using Microsoft Tools)
+
+1. Download and install [Visual C/C++ Express](https://www.visualstudio.com/post-download-vs/?sku=xdesk&clcid=0x409&telem=ga).
+
+##### Compiling bam
+
+1. Launch `make_win32_msvc.bat` script for compile bam.
+    - Run in cmd (start>run>cmd):
+    ```
+    cd <folder_where_unzipped_bam_package>
+    make_win32_msvc.bat
+    ```
+
+##### Compiling Teeworlds
+
+Run in cmd (start->run->cmd):
+
+```
+%comspec% /k ""C:\Program Files\Microsoft Visual Studio 14.0\VC\vcvarsall.bat"" x86
+
+cd teeworlds-version-src
+..\bam\bam
+```
+
+This will build the client and server.
+
+Bam parameters are described in a later section.
+
+# Linux / Mac
 
 #### Setup
 
@@ -114,8 +153,23 @@ $ cd teeworlds-VERSION-src
 $ ../bam/bam
 ```
 
-### Bam parameters
+# Bam parameters
+For advance options see [bam documentation](http://matricks.github.io/bam/bam.html#5).
 
+##### v0.4.0 and earlier
+Available targets are:
+- release (for all in release mode)
+- debug (for all in debug mode)
+- server_release
+- server_debug
+- client_release
+- client_debug
+
+E.g. to build server debug use following arguments:
+
+`$ ../bam/bam server_debug`
+
+##### v0.5.0 and later
 By default, Teeworlds compiles in debug mode. To compile in release mode, add `conf=release` to the bam arguments. E.g.:
 
 `$ ../bam/bam conf=release`
