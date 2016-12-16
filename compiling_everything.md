@@ -37,21 +37,23 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 1. Download and install [MinGW](http://sourceforge.net/projects/mingw/files/latest/download?source=files). Select 'mingw32-gcc-g++' package inside MinGW installer.
 2. Download and install [ZLib](http://gnuwin32.sourceforge.net/downlinks/zlib.php).
 
-##### Compiling BAM
+#### Compiling BAM
 
 1. Update 'PATH' windows environment variable including MinGW and zlib bin folders.
     - Run in cmd (start>run>cmd):
+
     ```
     setx PATH "%PATH%;C:\MinGW\bin;C:\Program Files (x86)\GnuWin32\bin;"
     ```
 2. Launch `make_win32_mingw.bat` script to compile bam.
     - Run in cmd (start>run>cmd):
+
     ```
     cd <folder_where_unzipped_bam_package>
     make_win32_mingw.bat
     ```
 
-##### Compiling Teeworlds
+#### Compiling Teeworlds
 
 Run in cmd (start->run->cmd):
 
@@ -68,7 +70,7 @@ Bam parameters are described in a later section.
 
 1. Download and install [Visual C/C++ Express](https://www.visualstudio.com/post-download-vs/?sku=xdesk&clcid=0x409&telem=ga).
 
-##### Compiling bam
+#### Compiling bam
 
 1. Launch `make_win32_msvc.bat` script to compile bam.
     - Run in cmd (start>run>cmd):
@@ -77,7 +79,7 @@ Bam parameters are described in a later section.
     make_win32_msvc.bat
     ```
 
-##### Compiling Teeworlds
+#### Compiling Teeworlds
 
 Run in cmd (start->run->cmd):
 
@@ -94,9 +96,9 @@ Bam parameters are described in a later section.
 
 # Linux / Mac
 
-#### Setup
+## Setup
 
-##### On Linux
+#### On Linux
 
 Use your package manager (apt-get, emerge or whatever is used on your distribution) to install the following (you will need the header files):
 
@@ -110,7 +112,7 @@ Use your package manager (apt-get, emerge or whatever is used on your distributi
 
 (python is the only one which is required to build server)
 
-##### On Mac OS X
+#### On Mac OS X
 
 Install the XCode tools from apple. Download libsdl from the http://libsdl.org and put SDL.framework in /Library/Frameworks
 
@@ -137,7 +139,8 @@ $ unzip teeworlds-VERSION-src.zip
 $ rm teeworlds-VERSION-src.zip
 ```
 
-##### Compiling bam
+#### Compiling bam
+
 ```
 $ cd bam
 $ ./make_unix.sh
@@ -145,41 +148,46 @@ $ cd ..
 ```
 
 #### Compiling teeworlds
+
 This will build the client and server.
 
 ```
 $ cd teeworlds-VERSION-src
-
 $ ../bam/bam
 ```
 
 # Bam parameters
+
 For more advanced options check the [bam documentation](http://matricks.github.io/bam/bam.html#5).
 
-##### v0.4.0 and earlier
+#### For Teeworlds v0.6.x and earlier
+
 Available targets are:
-- release (for all in release mode)
-- debug (for all in debug mode)
-- server_release
-- server_debug
-- client_release
-- client_debug
+
++ release (for all in release mode)
++ debug (for all in debug mode)
++ server_release
++ server_debug
++ client_release
++ client_debug
 
 E.g. to build server debug use the following arguments:
 
 `$ ../bam/bam server_debug`
 
-##### v0.5.0 and later
+#### For Teeworlds v0.7.0 and later
+
 By default, Teeworlds compiles in debug mode. To compile in release mode, add `conf=release` to the bam arguments. E.g.:
 
 `$ ../bam/bam conf=release`
 
 By default, Teeworlds compiles the `game` target, i.e. the client and server. Available targets are:
-- game (client and server)
-- client
-- server
-- tools
-- masterserver
+
++ game (client and server)
++ client
++ server
++ tools
++ masterserver
 
 E.g. to build the tools and master server in release mode use the following arguments:
 
