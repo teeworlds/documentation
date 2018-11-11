@@ -81,6 +81,10 @@ Bam parameters are described in a later section.
 
 #### Compiling Teeworlds
 
+Run the `x86 Native Tools Command Prompt` (32Bit) or the `x64 Native Tools Command Prompt` (64Bit) from the start menu.
+
+Or
+
 Run in cmd (start->run->cmd):
 
 ```
