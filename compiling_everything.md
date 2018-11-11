@@ -90,9 +90,16 @@ cd teeworlds-version-src
 ..\bam\bam
 ```
 
-This will build the client and server.
+For 64-bit, use `amd64` instead:
+
+```
+%comspec% /k ""C:\Program Files\Microsoft Visual Studio 14.0\VC\vcvarsall.bat"" amd64
+```
+
+This will build the client and server. 
 
 Bam parameters are described in a later section.
+
 
 # Linux / Mac
 
@@ -160,20 +167,7 @@ $ ../bam/bam
 
 For more advanced options check the [bam documentation](http://matricks.github.io/bam/bam.html#5).
 
-#### For Teeworlds v0.6.x and earlier
 
-Available targets are:
-
-+ release (for all in release mode)
-+ debug (for all in debug mode)
-+ server_release
-+ server_debug
-+ client_release
-+ client_debug
-
-E.g. to build server debug use the following arguments:
-
-`$ ../bam/bam server_debug`
 
 #### For Teeworlds v0.7.0 and later
 
@@ -192,3 +186,21 @@ By default, Teeworlds compiles the `game` target, i.e. the client and server. Av
 E.g. to build the tools and master server in release mode use the following arguments:
 
 `$ ../bam/bam conf=release tools masterserver`
+
+
+You may specify the architecture using `arch`, e.g. `arch=X86` or `arch=x64`.
+
+#### For Teeworlds v0.6.x and earlier
+
+Available targets are:
+
++ release (for all in release mode)
++ debug (for all in debug mode)
++ server_release
++ server_debug
++ client_release
++ client_debug
+
+E.g. to build server debug use the following arguments:
+
+`$ ../bam/bam server_debug`
