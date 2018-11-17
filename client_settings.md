@@ -74,8 +74,8 @@ There are lots of client settings available, and this doc will guide you through
 |`cl_mouse_followfactor`| Set how fast the camera will follow the cursor| 	60|
 |`cl_mouse_max_distance`| 	Maximum distance between cursor and player(pre 0.7.1 setting)| 	800|
 |`cl_dynamic_camera`| 	Switches camera mode (0 = static camera, 1 = dynamic camera)| 	0|
-|`cl_mouse_max_distance_dynamic`| 	Set how fast the camera will follow the cursor, in dynamic camera mode| 	1000|
-|`cl_mouse_max_distance_static`| 	Set how fast the camera will follow the cursor, in static camera mode| 	400|
+|`cl_mouse_max_distance_dynamic`| 	Maximum distance between cursor and player, in dynamic camera mode| 	1000|
+|`cl_mouse_max_distance_static`| 	Maximum distance between cursor and player, in static camera mode| 	400|
 |`cl_filterchat`| 	Show chat messages (0 = all, 1 = friends only, 2 = no one)| 	0|
 |`ed_showkeys`| 	Show the pressed key(s) in the editor| 	0|
 |`cl_show_welcome`| 	Show the first launch popup| 	1|
