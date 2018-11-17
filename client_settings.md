@@ -97,4 +97,4 @@ There are lots of client settings available, and this doc will guide you through
 |`gfx_noclip`| 	Disable clipping| 	0|
 |`cl_show_menu_map`| 	Display background map in the menu| 	1|
 |`cl_camera_speed`| 	Set how fast the camera from the background map is moving| 	50|
-|`cl_skip_start_menu`| 	Option to disable the start menu| 	0|
+|`cl_skip_start_menu`| 	Skip start menu| 	0|
