@@ -53,6 +53,7 @@ To change the game's physics, read the [Server Tuning](server_tuning.md) doc.
 |`sv_teambalance_time`|	Time in minutes after the teams are uneven, to auto balance|	1|
 |`sv_spamprotection`|	Enable spam filter|	1|
 |`sv_tournament_mode`|	Players will automatically join as spectator|	0|
+|`sv_skill_level`|	Skill level shown in serverbrowser (0=casual 1=normal 2=competitive)|	1|
 |`sv_respawn_delay_tdm`|	Time in seconds needed to respawn in the tdm gametype|	3|
 |`sv_teamdamage`|	Enable friendly fire|	0|
 |`sv_powerups`|	Enable powerups (katana)|	1|
