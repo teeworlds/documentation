@@ -73,6 +73,7 @@ There are lots of client settings available, and this doc will guide you through
 |`cl_mouse_deadzone`| 	Maximum distance the mouse can be moved without the camera moving| 	400|
 |`cl_mouse_followfactor`| Set how fast the camera will follow the cursor| 	60|
 |`cl_mouse_max_distance`| 	Maximum distance between cursor and player| 	800|
+|`cl_filterchat`| 	Show chat messages (0 = all, 1 = friends only, 2 = no one)| 	0|
 |`ed_showkeys`| 	Show the pressed key(s) in the editor| 	0|
 |`cl_show_welcome`| 	Show the first launch popup| 	1|
 |`cl_motd_time`| 	Time in seconds the motd is shown| 	10|
