@@ -72,7 +72,6 @@ There are lots of client settings available, and this doc will guide you through
 |`cl_warning_teambalance`| 	Warning if teams are unbalanced| 	1|
 |`cl_mouse_deadzone`| 	Maximum distance the mouse can be moved without the camera moving| 	400|
 |`cl_mouse_followfactor`| Set how fast the camera will follow the cursor| 	60|
-|`cl_mouse_max_distance`| 	Maximum distance between cursor and player(pre 0.7.1 setting)| 	800|
 |`cl_dynamic_camera`| 	Switches camera mode (0 = static camera, 1 = dynamic camera)| 	0|
 |`cl_mouse_max_distance_dynamic`| 	Maximum distance between cursor and player, in dynamic camera mode| 	1000|
 |`cl_mouse_max_distance_static`| 	Maximum distance between cursor and player, in static camera mode| 	400|
@@ -96,5 +95,5 @@ There are lots of client settings available, and this doc will guide you through
 |`ui_color_alpha`| 	Interface alpha| 	228|
 |`gfx_noclip`| 	Disable clipping| 	0|
 |`cl_show_menu_map`| 	Display background map in menu| 	1|
-|`cl_camera_speed`| 	Set how fast the camera from the background map is moving| 	50|
+|`cl_camera_speed`| 	Set camera transition speed of the background map| 	50|
 |`cl_skip_start_menu`| 	Skip start menu| 	0|
