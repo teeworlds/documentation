@@ -70,3 +70,9 @@ All these commands can be executed in the console. To open the console, press th
 |`dump_remote_console`|	dump_remote_console|	Dump the remote console|
 |`team`|	team team_id|	Switch to the specified team (0 = red, 1 = blue, -1 = spectators)|
 |`kill`|	kill|	Kill yourself|
+
+### Startup commands
+
+To Start Teeworlds on Windows with the debug console open, use "teeworlds.exe -c" or "teeworlds.exe --console".
+It is also possible to add the parameter to a windows shortcut.
+
