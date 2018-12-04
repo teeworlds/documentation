@@ -130,22 +130,22 @@ Install the XCode tools from apple. Download libsdl from the http://libsdl.org a
 #### Getting the source
 
 Run the following commands to download and unzip bam and teeworlds:
-**Replace VERSION in teeworlds-VERSION-src.zip with the version you want (probably the latest, 0.6.0)**
+**Replace VERSION in teeworlds-VERSION-src.zip with the version you want (probably the latest, 0.7.0)**
 
 Using `wget`:
 
 ```
-$ wget -qO- http://github.com/downloads/matricks/bam/bam-0.4.0.tar.bz2 | tar xj
-$ wget -qO- https://downloads.teeworlds.com/files/teeworlds-VERSION-src.zip | tar xj
+$ wget -qO- https://github.com/matricks/bam/archive/v0.5.0.tar.gz | tar xj
+$ wget -qO- https://downloads.teeworlds.com/teeworlds/teeworlds-VERSION-src.zip | tar xj
 ```
 
 Alternatively, using `fetch`:
 
 ```
-$ fetch http://github.com/downloads/matricks/bam/bam-0.4.0.zip
+$ fetch https://github.com/matricks/bam/archive/v0.5.0.tar.gz
 $ unzip bam.zip
 $ rm bam.zip
-$ fetch https://downloads.teeworlds.com/files/teeworlds-VERSION-src.zip
+$ fetch https://downloads.teeworlds.com/teeworlds/teeworlds-VERSION-src.zip
 $ unzip teeworlds-VERSION-src.zip
 $ rm teeworlds-VERSION-src.zip
 ```
@@ -166,6 +166,8 @@ This will build the client and server.
 $ cd teeworlds-VERSION-src
 $ ../bam/bam
 ```
+
+For 0.7.0 and later, you will find the binaries in the `build` folder.
 
 # Bam parameters
 
