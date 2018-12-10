@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
-# Requires Python 3.4+ and misaka
+# Requires Python 3.5+ and misaka
 
 import misaka as m
 import sys
+from os.path import normpath
 import re
 from pathlib import Path
 import shutil
@@ -21,7 +22,7 @@ def main():
 
     target = args.target.with_suffix('.new')
     compile_docs(args.source, target, args.build_type)
-    shutil.rmtree(args.target)
+    shutil.rmtree(str(args.target), ignore_errors=True)
     target.replace(args.target)
 
 
@@ -39,8 +40,8 @@ def compile_docs(source, target, build_type):
 
         def link_patcher(match):
             if build_type == BuildType.TEEWORLDS_COM:
-                path = (input_path.parent / match.group(2)).resolve().relative_to(source)
-                return "[{}]({})".format(match.group(1), '/?page=docs&wiki=' + str(path))
+                path = normpath(str(input_path.parent.relative_to(source) / match.group(2)))
+                return "[{}]({})".format(match.group(1), '/?page=docs&wiki=' + path)
             elif build_type == BuildType.LOCAL:
                 return "[{}]({})".format(match.group(1), match.group(2) + '.html')
             else:
