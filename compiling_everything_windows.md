@@ -86,12 +86,12 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
     
 # For Teeworlds v0.6.x and earlier
 Available targets are:
-+ release (for all in release mode)
-+ debug (for all in debug mode)
-+ server_release
-+ server_debug
-+ client_release
-+ client_debug
++ `release` (for all in release mode)
++ `debug` (for all in debug mode)
++ `server_release`
++ `server_debug`
++ `client_release`
++ `client_debug`
 
 E.g. to build server debug use the following arguments:
 
