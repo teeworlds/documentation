@@ -30,18 +30,19 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
     - Changes to the teeworlds source directory
 3. `.\bam\bam config`
     - Runs bam configuration
-4. `.\bam\bam conf=release -f`
+4. `.\bam\bam conf=release`
     - Compiles teeworlds (Client and Server)
-    - Flag `-f` will force a recompile
-    - Available targets:
-        - `release` (for all in release mode)
-        - `debug` (for all in debug mode)
-        - `server_release`
-        - `server_debug`
-        - `client_release`
-        - `client_debug`
+    - `conf=debug` will build the debug version
+    - Available targets for release and debug:
+        - `game`
+        - `server`
+        - `client`
+        - `content`
+        - `masterserver`
+        - `tools`
     - To build the tools and master server in release mode use the following arguments:
         - `conf=release tools masterserver`
+    - Flag `-f` will force a recompile
 5. The compiled game is located at `\teeworldsSource\build\x64\`
 6. To start your compiled game, you need `SDL2.dll` and `freetype.dll`. Copy them from `\teeworldsSource\other\sdl\lib\x64` and `\teeworldsSource\other\freetype\win64` into `\teeworldsSource\build\x64`.
 
@@ -66,18 +67,19 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
     - Changes to the teeworlds source directory
 3. `.\bam\bam config`
     - Runs bam configuration
-4. `.\bam\bam conf=release -f`
+4. `.\bam\bam conf=release`
     - Compiles teeworlds (Client and Server)
-    - Flag `-f` will force a recompile
-    - Available targets:
-        - `release` (for all in release mode)
-        - `debug` (for all in debug mode)
-        - `server_release`
-        - `server_debug`
-        - `client_release`
-        - `client_debug`
+    - `conf=debug` will build the debug version
+    - Available targets for release and debug:
+        - `game`
+        - `server`
+        - `client`
+        - `content`
+        - `masterserver`
+        - `tools`
     - To build the tools and master server in release mode use the following arguments:
         - `conf=release tools masterserver`
+    - Flag `-f` will force a recompile
 5. The compiled game is located at `\teeworldsSource\build\x86\`
 6. To start your compiled game, you need `SDL2.dll` and `freetype.dll`. Copy them from `\teeworldsSource\other\sdl\lib\x86` and `\teeworldsSource\other\freetype\win32` into `\teeworldsSource\build\x86`.
 
