@@ -45,20 +45,26 @@ To change the game's physics, read the [Server Tuning](server_tuning.md) doc.
 |`sv_warmup`|	Warmup time between rounds|	0|
 |`sv_scorelimit`|	Score limit of the game (0 disables it)|	20|
 |`sv_timelimit`|	Time limit of the game (in case of equal points there will be sudden death)|	0|
-|`sv_gametype`|	Gametype (dm/ctf/tdm) (This setting needs the map to be reloaded in order to take effect)|	dm|
+|`sv_gametype`|	Gametype (dm/ctf/tdm/lms/lts) (This setting needs the map to be reloaded in order to take effect)|	dm|
 |`sv_maprotation`|	The maps to be rotated|	|
 |`sv_rounds_per_map`|	Number of rounds before changing to next map in rotation|	1|
 |`sv_motd`|	Message of the day, shown in server info and when joining a server|	|
-|`sv_spectator_slots`|	Number of clients that can only be spectators|	0|
+|`sv_player_slots`|	Number of slots to reserve for players. Replaces "sv_spectator_slots"|	8|
 |`sv_teambalance_time`|	Time in minutes after the teams are uneven, to auto balance|	1|
 |`sv_spamprotection`|	Enable spam filter|	1|
 |`sv_tournament_mode`|	Players will automatically join as spectator|	0|
+|`sv_player_ready_mode`|	When enabled, players can pause/unpause the game and start the game on warmup via their ready state|	0|
+|`sv_strict_spectate_mode`|	Restricts information like health, ammo and armour in spectator mode|	0|
+|`sv_silent_spectator_mode`|	Mute join/leave message of spectator|	1|
 |`sv_skill_level`|	Skill level shown in serverbrowser (0 = casual, 1 = normal, 2 = competitive)|	1|
-|`sv_respawn_delay_tdm`|	Time in seconds needed to respawn in the tdm gametype|	3|
+|`sv_respawn_delay_tdm`|	Time needed to respawn after death in tdm gametype|	3|
 |`sv_teamdamage`|	Enable friendly fire|	0|
 |`sv_powerups`|	Enable powerups (katana)|	1|
+|`sv_respawn_delay_tdm`|	Enable powerups (katana)|	1|
 |`sv_vote_kick`|	Enable kick voting|	1|
 |`sv_vote_kick_bantime`|	Time in minutes to ban a player if kicked by voting (0 equals only kick)|	5|
 |`sv_vote_kick_min`|	Minimum number of players required to start a kick vote|	0|
 |`sv_inactivekick_time`|	Time in minutes after an inactive player will be taken care of|	3|
 |`sv_inactivekick`|	How to deal with inactive players (0 = move to spectator, 1 = move to free spectator slot/kick, 2 = kick)|	1|
+|`sv_vote_spectate`|	Allow voting to move players to spectators|	1|
+|`sv_vote_spectate_rejoindelay`|	How many minutes to wait before a player can rejoin after being moved to spectators by vote|	3|
