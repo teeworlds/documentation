@@ -7,7 +7,6 @@
 Bam is the [build system made by matricks](http://matricks.github.io/bam/) used in Teeworlds.
 
 #### Setup
-
 1. Use your package manager (apt-get, emerge or whatever is used on your distribution) to install the following (you will need the header files):
     - gcc
     - g++
@@ -24,6 +23,7 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
     - `$ cd bam`
     - `$ ./make_unix.sh`
     - `$ cd ..`
+
 
 #### Compiling
 2. `cd /teeworldsSource`
@@ -43,15 +43,11 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
     - To build the tools and master server in release mode use the following arguments:
         - `conf=release tools masterserver`
     - You may specify the architecture using `arch`, e.g. `arch=X86` or `arch=x64`.
-        
 5. The compiled game is located at `/teeworldsSource/build/..`
 
 
-
 # For Teeworlds v0.6.x and earlier
-
 Available targets are:
-
 + release (for all in release mode)
 + debug (for all in debug mode)
 + server_release
@@ -66,4 +62,3 @@ E.g. to build server debug use the following arguments:
 **Also:** Teeworlds 0.5.2 and earlier requires python 2.x to compile. Python 3.x will not work. Python 3.x support is introduced with Teeworlds 0.6.0.
 
 **Also:** If you are using bam 0.2.0 (needed for Teeworlds 0.5.2 and earlier) the bam binary will not be in the bam directory, but in bam/src. You will need to change the paths accordingly to that or copy/move the bam executable to the bam directory.
-

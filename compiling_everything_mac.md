@@ -17,6 +17,7 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
     - `$ ./make_unix.sh`
     - `$ cd ..`
 
+
 #### Compiling
 2. `cd /teeworldsSource`
     - Changes to the teeworlds source directory
@@ -34,15 +35,11 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
         - `client_debug`
     - To build the tools and master server in release mode use the following arguments:
         - `conf=release tools masterserver`
-        
 5. The compiled game is located at `/teeworldsSource/build/..`
 
 
-
 # For Teeworlds v0.6.x and earlier
-
 Available targets are:
-
 + release (for all in release mode)
 + debug (for all in debug mode)
 + server_release
@@ -57,4 +54,3 @@ E.g. to build server debug use the following arguments:
 **Also:** Teeworlds 0.5.2 and earlier requires python 2.x to compile. Python 3.x will not work. Python 3.x support is introduced with Teeworlds 0.6.0.
 
 **Also:** If you are using bam 0.2.0 (needed for Teeworlds 0.5.2 and earlier) the bam binary will not be in the bam directory, but in bam/src. You will need to change the paths accordingly to that or copy/move the bam executable to the bam directory.
-

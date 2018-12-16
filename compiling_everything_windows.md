@@ -7,7 +7,6 @@
 Bam is the [build system made by matricks](http://matricks.github.io/bam/) used in Teeworlds.
 
 ### Setup (Using Microsoft Tools)
-
 1. Download and install [Visual Studio 2017 Community](https://visualstudio.microsoft.com/de/downloads/).
 
 
@@ -46,6 +45,7 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 5. The compiled game is located at `\teeworldsSource\build\x64\`
 6. To start your compiled game, you need `SDL2.dll` and `freetype.dll`. Copy them from `\teeworldsSource\other\sdl\lib\x64` and `\teeworldsSource\other\freetype\win64` into `\teeworldsSource\build\x64`.
 
+
 # Windows x86 
 #### Setup
 1. Download and unzip [Teeworlds-source](https://github.com/teeworlds/teeworlds/releases) or [Teeworlds-latest-source](https://github.com/teeworlds/teeworlds)
@@ -58,7 +58,6 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 5. Download and unzip [Freetype](https://codeload.github.com/ubawurinna/freetype-windows-binaries/zip/master)
     - Copy `include`, `win64` and `win32` to `\teeworldsSource\other\freetype`
     - Copy `freetype.lib` from `\teeworldsSource\other\freetype\win32` in the root directory`\teeworldsSource`
-
 
 
 #### Compiling
@@ -83,11 +82,8 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 6. To start your compiled game, you need `SDL2.dll` and `freetype.dll`. Copy them from `\teeworldsSource\other\sdl\lib\x86` and `\teeworldsSource\other\freetype\win32` into `\teeworldsSource\build\x86`.
 
     
-
 # For Teeworlds v0.6.x and earlier
-
 Available targets are:
-
 + release (for all in release mode)
 + debug (for all in debug mode)
 + server_release
@@ -102,4 +98,3 @@ E.g. to build server debug use the following arguments:
 **Also:** Teeworlds 0.5.2 and earlier requires python 2.x to compile. Python 3.x will not work. Python 3.x support is introduced with Teeworlds 0.6.0.
 
 **Also:** If you are using bam 0.2.0 (needed for Teeworlds 0.5.2 and earlier) the bam binary will not be in the bam directory, but in bam/src. You will need to change the paths accordingly to that or copy/move the bam executable to the bam directory.
-
