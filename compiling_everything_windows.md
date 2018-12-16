@@ -13,9 +13,9 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 
 # Windows x64 
 #### Setup
-1. Download and unzip [Teeworlds](https://github.com/teeworlds/teeworlds/releases) or [Teeworlds-latest-source](https://github.com/teeworlds/teeworlds)
+1. Download and unzip [Teeworlds-source](https://github.com/teeworlds/teeworlds/releases) or [Teeworlds-latest-source](https://github.com/teeworlds/teeworlds)
 2. Download and install [Python 3.x](https://www.python.org/download/)
-3. Download and unzip bam to `\teeworldsSource\bam`
+3. Download and unzip [bam](https://github.com/matricks/bam/archive/v0.5.1.zip) to `\teeworldsSource\bam`
     - Run `make_win64_msvc.bat` to compile BAM
 4. Download and unzip [SDL 2.0.8](https://www.libsdl.org/release/SDL2-devel-2.0.8-VC.zip)
     - Copy `include` and `lib` to \teeworldsSource\other\sdl
@@ -50,7 +50,7 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 #### Setup
 1. Download and unzip [Teeworlds-source](https://github.com/teeworlds/teeworlds/releases) or [Teeworlds-latest-source](https://github.com/teeworlds/teeworlds)
 2. Download and install [Python 3.x](https://www.python.org/download/)
-3. Download and unzip bam to `\teeworldsSource\bam`
+3. Download and unzip [bam](https://github.com/matricks/bam/archive/v0.5.1.zip) to `\teeworldsSource\bam`
     - Run `make_win32_msvc.bat` to compile BAM
 4. Download and unzip [SDL 2.0.8](https://www.libsdl.org/release/SDL2-devel-2.0.8-VC.zip)
     - Copy `include` and `lib` to \teeworldsSource\other\sdl

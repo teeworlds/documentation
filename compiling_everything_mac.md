@@ -10,8 +10,8 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 1. Install Xcode from the Appstore or install Xcode Command Line Tools `xcode-select --install`. 
 3. Install libsdl using [brew](https://brew.sh/) `brew install sdl2`
 4. Install Freetype using [brew](https://brew.sh/) `brew install freetype`
-5. Download and unzip [Teeworlds](https://github.com/teeworlds/teeworlds/releases) or [Teeworlds-latest-source](https://github.com/teeworlds/teeworlds)
-6. Download and unzip bam to `/teeworldsSource/bam`
+5. Download and unzip [Teeworlds-source](https://github.com/teeworlds/teeworlds/releases) or [Teeworlds-latest-source](https://github.com/teeworlds/teeworlds)
+6. Download and unzip [bam](https://github.com/matricks/bam/archive/v0.5.1.zip) to `\teeworldsSource\bam`
 7. Compiling bam  
     - `$ cd bam`
     - `$ ./make_unix.sh`
