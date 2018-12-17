@@ -2,7 +2,7 @@
 
 **IMPORTANT NOTE:** SDL and Freetype libs are not shipped with Teeworlds 0.7.x. You must download them separately.
 
-**Q: What is BAM?**
+**Q: What is bam?**
 
 Bam is the [build system made by matricks](http://matricks.github.io/bam/) used in Teeworlds.
 
