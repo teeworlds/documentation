@@ -17,7 +17,7 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 3. Download and unzip [bam](https://github.com/matricks/bam/archive/v0.5.1.zip) to `\teeworldsSource\bam`
     - Run `make_win64_msvc.bat` to compile bam
 4. Download and unzip [SDL 2.0.8](https://www.libsdl.org/release/SDL2-devel-2.0.8-VC.zip)
-    - Copy `include` and `lib` to \teeworldsSource\other\sdl
+    - Copy `include` and `lib` to `\teeworldsSource\other\sdl`
     - Copy `SDL2.lib` and `SDL2main.lib` from `\teeworldsSource\other\sdl\lib\x64` in the root directory`teeworldsSource`
 5. Download and unzip [Freetype](https://codeload.github.com/ubawurinna/freetype-windows-binaries/zip/master)
     - Copy `include`, `win64` and `win32` to `\teeworldsSource\other\freetype`
@@ -54,7 +54,7 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 3. Download and unzip [bam](https://github.com/matricks/bam/archive/v0.5.1.zip) to `\teeworldsSource\bam`
     - Run `make_win32_msvc.bat` to compile bam
 4. Download and unzip [SDL 2.0.8](https://www.libsdl.org/release/SDL2-devel-2.0.8-VC.zip)
-    - Copy `include` and `lib` to \teeworldsSource\other\sdl
+    - Copy `include` and `lib` to `\teeworldsSource\other\sdl`
     - Copy `SDL2.lib` and `SDL2main.lib` from `\teeworldsSource\other\sdl\lib\x86` in the root directory`teeworldsSource`
 5. Download and unzip [Freetype](https://codeload.github.com/ubawurinna/freetype-windows-binaries/zip/master)
     - Copy `include`, `win64` and `win32` to `\teeworldsSource\other\freetype`
