@@ -34,7 +34,7 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
     - Compiles teeworlds (Client and Server)
     - `conf=debug` will build the debug version
     - Available targets for release and debug:
-        - `game`
+        - `game`(default)
         - `server`
         - `client`
         - `content`
