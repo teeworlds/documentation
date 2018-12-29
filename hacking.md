@@ -7,4 +7,4 @@
 
 #### IRC
 
-We have one development channel on [QuakeNET](http://www.quakenet.org/) called #teeworlds-dev where a lot of chatter is going on.
+We have one development channel on [QuakeNET](http://www.quakenet.org/) called #teeworlds where a lot of chatter is going on.
