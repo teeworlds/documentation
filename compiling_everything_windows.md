@@ -16,6 +16,7 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 2. Download and install [Python 3.x](https://www.python.org/download/)
 3. Download and unzip [bam](https://github.com/matricks/bam/archive/v0.5.1.zip) to `teeworlds-version\bam`
     - Run `make_win64_msvc.bat` to compile bam
+    - **Note:** Bam does not recognise Visual Studio 2017. As a workaround, to compile bam, copy `line 52 to end` from `make_win64_msvc.bat` and paste it in the `x64 Native Tools Command Prompt`
 4. Download and unzip [SDL 2.0.8](https://www.libsdl.org/release/SDL2-devel-2.0.8-VC.zip)
     - Copy `include` and `lib` to `teeworlds-version\other\sdl`
     - Copy `SDL2.lib` and `SDL2main.lib` from `teeworlds-version\other\sdl\lib\x64` in the root directory`teeworlds-version`
@@ -53,6 +54,7 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 2. Download and install [Python 3.x](https://www.python.org/download/)
 3. Download and unzip [bam](https://github.com/matricks/bam/archive/v0.5.1.zip) to `teeworlds-version\bam`
     - Run `make_win32_msvc.bat` to compile bam
+    - **Note:** Bam does not recognise Visual Studio 2017. As a workaround, to compile bam, copy `line 38 to end` from `make_win32_msvc.bat` and paste it in the `x86 Native Tools Command Prompt`
 4. Download and unzip [SDL 2.0.8](https://www.libsdl.org/release/SDL2-devel-2.0.8-VC.zip)
     - Copy `include` and `lib` to `teeworlds-version\other\sdl`
     - Copy `SDL2.lib` and `SDL2main.lib` from `teeworlds-version\other\sdl\lib\x86` in the root directory`teeworlds-version`
