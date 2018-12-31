@@ -21,7 +21,7 @@ Breaking these rules will most likely result in a warning.
 	* Threads will be moved to an appropriate forum.
 3. **Write clear and concise topics**
 	* Moderators may edit topics to clarify questions or delete them entirely.
-4. **Don't post or link to offensive/pornographic/illegal material**
+4. **Don't post or link to offensive/pornographic/illegal material, or cheats**
 	* Threads and posts will be immediately closed. Breaking this rule will very likely result in a ban.
 5. **Respect the other forum members, moderators and developers**
 	* Moderators may delete offensive posts and ban users at their leisure.
