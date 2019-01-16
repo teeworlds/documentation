@@ -45,8 +45,6 @@
 
 [Source Formatting](nomenclature.md)
 
-[CommunityWeb](communityweb.md)
-
 
 ##Other
 
