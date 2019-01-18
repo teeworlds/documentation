@@ -24,7 +24,7 @@ To kick players from the server and to do other similar things, you have to use 
 |`restart`|	restart time|	Restart the round (time is optional)|
 |`broadcast`|	broadcast text|	Broadcast the text|
 |`say`|	say text|	Send a chat message|
-|`set_team`|	set_team client\_id team\_id|	Move a player to a specific team (0 = red, 1 = blue, -1 = spectators)|
+|`set_team`|	set\_team client\_id team\_id|	Move a player to a specific team (0 = red, 1 = blue, -1 = spectators)|
 |`set_team_all`|	set\_team\_all team\_id|	Move all players to a specific team|
 |`add_vote`|	add_vote description command|	Add a vote option for the provided command with the provided description ( description is optional)|
 |`remove_vote`|	remove_vote command|	remove a vote option|
