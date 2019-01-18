@@ -62,12 +62,12 @@ All these commands can be executed in the console. To open the console, press th
 |`unbind`|	unbind key|	Unbind the key|
 |`unbindall`|	unbindall|	Unbind all the keys|
 |`dump_binds`|	dump_binds|	Dump the binds|
-|`toggle_local_console`|	toggle_local_console|	Toggle the local console|
-|`clear_local_console`|	clear_local_console|	Clear the local console|
-|`dump_local_console`|	dump_local_console|	Dump the local console|
-|`toggle_remote_console`|	toggle_remote_console|	Toggle the remote console|
-|`clear_remote_console`|	clear_remote_console|	Clear the remote console|
-|`dump_remote_console`|	dump_remote_console|	Dump the remote console|
+|`toggle_local_console`|	toggle\_local_console|	Toggle the local console|
+|`clear_local_console`|	clear\_local_console|	Clear the local console|
+|`dump_local_console`|	dump\_local_console|	Dump the local console|
+|`toggle_remote_console`|	toggle\_remote\_console|	Toggle the remote console|
+|`clear_remote_console`|	clear\_remote\_console|	Clear the remote console|
+|`dump_remote_console`|	dump\_remote\_console|	Dump the remote console|
 |`team`|	team team_id|	Switch to the specified team (0 = red, 1 = blue, -1 = spectators)|
 |`kill`|	kill|	Kill yourself|
 
