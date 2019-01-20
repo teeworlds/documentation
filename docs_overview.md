@@ -13,6 +13,7 @@
 
 [Forum Rules](rules/forum_rules.md)
 
+[Server Rules](rules/server_rules.md)
 
 ##Game Information
 
@@ -48,6 +49,5 @@
 
 ##Other
 
-[Donations](other/donations.md)
+[Licensing, Modifications, Donations](other/licensing_misc.md)
 
-[Topics that matricks is tired of discussing and will not discuss any more ](tired_matricks.md)

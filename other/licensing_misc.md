@@ -1,6 +1,4 @@
-# Why I wont discuss these subjects
-
-All people have a limited amount of time. As I'm almost the only coder on the game I would like to spend my time improving the game instead of dealing with questions that I've discussed over and over again.
+# Licensing, Modifications and Donations
 
 ## The License
 
@@ -10,8 +8,14 @@ All people have a limited amount of time. As I'm almost the only coder on the ga
 - The whole OSS thing have started to take more time then it's actually worth.
 - No, it will not get changed because you complain.
 
-## Modded Servers
+## Modifications
 
-I don't care about modded servers, they are not my responsibility.
+Modifications are not our responsibility.
+
+Modified servers, however, must not broadcast themselves under the name of one of the official gametypes, and abide by other common-sense [Server Rules](rules/server_rules.md).
 
 Has to be done in 3rd person :)
+
+## Donations
+
+Thanks to your generosity, we have enough resources to keep the current infrastructure (website, masterservers) running for long, and have stopped accepting donations.
