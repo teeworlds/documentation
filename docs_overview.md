@@ -13,7 +13,7 @@
 
 [Forum Rules](rules/forum_rules.md)
 
-[Server Rules](rules/server_rules.md)
+[Server Hosting Rules](rules/server_rules.md)
 
 ##Game Information
 
@@ -29,7 +29,7 @@
 
 ###Server
 
-[Server Setup](server_setup.md) ([alternative](server_setup_2.md))
+[Server Setup](server_setup.md)
 
 [Server Settings](server_settings.md)
 
@@ -49,5 +49,5 @@
 
 ##Other
 
-[Licensing, Modifications, Donations](other/licensing_misc.md)
+[Licensing, Modifications and Donations](other/licensing_misc.md)
 
