@@ -47,7 +47,7 @@ Your question might already been asked by others. Try searching though the [FAQ]
 
 ###Other
 
-[Licensing, Modifications and Donations](other/licensing_misc.md)
+[Licensing, Modifications and Donations](licensing_misc.md)
 
 
 ## 3. Ask in the [Forum](https://www.teeworlds.com/forum/)
