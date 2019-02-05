@@ -1,10 +1,10 @@
 # Map Editor Reference
 
-### Controls
+## Controls
 
 Mouse means hold and drag, click is just a simple click.
 
-##### Main view
+### Main view
 
 | Command        | Description  |
 | ------------- | ------------- |
@@ -28,7 +28,7 @@ Mouse means hold and drag, click is just a simple click.
 | Tab| 	Hide/show the menu and sidebar| 
 | F10| 	Take a screenshot| 
 
-##### Quads
+### Quads
 
 | Command        | Description  |
 | ------------- | ------------- |
@@ -37,7 +37,7 @@ Mouse means hold and drag, click is just a simple click.
 | Shift + Click| 	Select multiple pivots| 
 | Ctrl + Mouse| 	Rotate quad| 
 
-##### Envelopes
+### Envelopes
 
 | Command        | Description  |
 | ------------- | ------------- |
