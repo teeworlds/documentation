@@ -6,15 +6,12 @@
 
 Bam is the [build system made by matricks](http://matricks.github.io/bam/) used in Teeworlds.
 
+# Windows (x64 and x86)
 ### Setup (Using Microsoft Tools)
 1. Download and install [Visual Studio 2017 Community](https://visualstudio.microsoft.com/de/downloads/).
-
-
-# Windows (x64 and x86)
-### Setup
-1. Download and unzip [Teeworlds source](https://github.com/teeworlds/teeworlds/releases) or [Teeworlds latest source](https://github.com/teeworlds/teeworlds/archive/master.zip)
-2. Download and install [Python 3.x](https://www.python.org/download/)
-3. Download and unzip [bam](https://github.com/teeworlds/bam/archive/master.zip) to `teeworlds-version\bam`
+2. Download and unzip [Teeworlds source](https://github.com/teeworlds/teeworlds/releases) or [Teeworlds latest source](https://github.com/teeworlds/teeworlds/archive/master.zip)
+3. Download and install [Python 3.x](https://www.python.org/download/)
+4. Download and unzip [bam](https://github.com/teeworlds/bam/archive/master.zip) to `teeworlds-version\bam`
     - Run `make_win64_msvc.bat` (or `make_win32_msvc.bat` for x86) to compile bam
     - **Note:** Bam does not recognise Visual Studio 2017. As a workaround, to compile bam, run the aforementioned batch script from the `x64 Native Tools Command Prompt` (or `x86 Native Tools Command Prompt` for x86)
 
