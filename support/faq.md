@@ -48,4 +48,4 @@
 
 **Q: How do I compile the source?**
 
-**A:** There is a separate document for this located [here](../compiling_everything.md).
+**A:** There is a separate document for this located [here](../hacking.md).
