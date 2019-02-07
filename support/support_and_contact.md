@@ -6,7 +6,7 @@ When any of the IRC channels, be sure to read the [IRC Channel Rules](../rules/i
 
 ### Support
 
-If you run into troubles with running Teeworlds, there is a section in the forum called [Support](http://www.teeworlds.com/forum/viewforum.php?id=4) were you can get help from other players and from the developers. There is also an IRC channel on the Quakenet network called #teeworlds for general chatter and support.
+If you run into troubles with running Teeworlds, there is a section in the forum called [Support](http://www.teeworlds.com/forum/viewforum.php?id=4) where you can get help from other players and from the developers. There is also an IRC channel on the Quakenet network called #teeworlds for general chatter and support.
 
 ### Development and supplying patches
 
