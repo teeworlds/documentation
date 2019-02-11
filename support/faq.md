@@ -10,7 +10,7 @@
 
 **A:** Probably something has gone wrong with the config. The easiest thing to try is deleting the `settings.cfg`. See [Client Config](../client_config.md) to find the configuration file.
 
-**Q: I have Graphical errors, white and rainbow textures, low FPS etc**
+**Q: I have Graphical errors, white and rainbow textures, low FPS, etc.**
 
 **A:** Try these following solutions:
 
@@ -19,6 +19,11 @@
 - Make sure that you have the latest drivers for your graphics card installed.
 - Make sure that you have unpacked everything.
 - Make sure that you start the game from it's own directory.
+
+**Q: I have issues with mouse input, mouse is stuck in a corner, stutters, etc.**
+
+**A:** You may want to enable raw mouse input. Open the user console (`f1` by default) and write `inp_grab 1`.
+
 
 ### Server related
 
