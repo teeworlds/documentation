@@ -14,6 +14,7 @@
 
 **A:** Try these following solutions:
 
+- Open the user console (`f1` by default) and write `gfx_use_x11xrandr_wm 0`.
 - Delete the settings file. See [Client Config](../client_config.md) to find the configuration file.
 - Make sure that you have the latest drivers for your graphics card installed.
 - Make sure that you have unpacked everything.

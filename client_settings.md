@@ -53,6 +53,7 @@ There are lots of client settings available, and this doc will guide you through
 |`gfx_fsaa_samples`| 	Number of Full-Scene Antialiasing samples| 	0|
 |`gfx_refresh_rate`| 	Screen refresh rate| 	0|
 |`gfx_finish`| 	Wait for OpenGL to finish| 	1|
+|`gfx_use_x11xrandr_wm`| 	Let SDL use the X11 XRandR window manager| 	1|
 |`inp_mousesens`	| Mouse sensitivity	| 100 |
 
 ### Game settings
