@@ -2,7 +2,15 @@
 
 ### Running the game
 
-**Q: Why doesn't the game start? This is the first time I run it.**
+**Q: The game does not start on Windows, I get a "VCRUNTIME140.dll was not found" error**
+
+Please download and install [Microsoft Visual C++ 2015 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=52685).
+
+**Q: The game does not start on Windows, application was unable to start correctly (0xc000007b)**
+
+You are running a 64-bit application on a 32-bit system. [Download Teeworlds for Windows 32bit](https://teeworlds.com/?page=downloads).
+
+**Q: The game does not start, this is the first time I run it.**
 
 **A:** The game uses OpenGL to do the acceleration. Make sure that you have installed the latest drivers for you graphics card.
 
