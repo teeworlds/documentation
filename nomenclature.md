@@ -60,6 +60,10 @@ Class, CMyClass, This goes for structures as well.
 
 Interface, IMyClass
 
+### Null pointers
+
+Use `0` or `0x0` instead of `NULL`. Because Teeworlds uses C++03, `nullptr` does not work either.
+
 ### Passing Variables
 
 Pass by value for smaller things, const reference for larger objects. By pointer if the function needs to modify the object. Don't cast values as just a reference. If the function needs to modify it, use a pointer to show it as well.
