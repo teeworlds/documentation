@@ -47,7 +47,7 @@ To change the game's physics, read the [Server Tuning](server_tuning.md) doc.
 |`sv_timelimit`|	Time limit of the game (in case of equal points there will be sudden death)|	0|
 |`sv_gametype`|	Gametype (dm/ctf/tdm/lms/lts) (This setting needs the map to be reloaded in order to take effect)|	dm|
 |`sv_maprotation`|	The maps to be rotated|	|
-|`sv_rounds_per_map`|	Number of rounds before changing to next map in rotation|	1|
+|`sv_matches_per_map`|	Number of matches before changing to next map in rotation|	1|
 |`sv_motd`|	Message of the day, shown in server info and when joining a server|	|
 |`sv_player_slots`|	Number of slots to reserve for players. Replaces "sv_spectator_slots"|	8|
 |`sv_teambalance_time`|	Time in minutes after the teams are uneven, to auto balance|	1|
