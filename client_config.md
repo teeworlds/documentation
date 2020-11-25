@@ -8,7 +8,7 @@ Run the file called `config_directory.bat`, that can be find in the Teeworlds di
 
 ### Linux
 
-The config file is located in `~/.teeworlds`.
+The config file is located in `~/.local/share/teeworlds/settings07.cfg`.
 
 ### Mac OSX
 
