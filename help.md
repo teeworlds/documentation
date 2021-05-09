@@ -5,7 +5,7 @@ Your question might already been asked by others. Try searching though the [FAQ]
 
 ## 2. Go through the Documentation
 
-###Rules
+### Rules
 
 [Support Rules](rules/support_rules.md)
 
@@ -15,11 +15,11 @@ Your question might already been asked by others. Try searching though the [FAQ]
 
 [Server Hosting Rules](rules/server_rules.md)
 
-###Game Information
+### Game Information
 
 [CTF Scoring](ctf_scoring.md)
 
-####Client
+#### Client
 
 [Client Settings](client_settings.md)
 
@@ -27,7 +27,9 @@ Your question might already been asked by others. Try searching though the [FAQ]
 
 [Client Config](client_config.md)
 
-####Server
+[Demo Player](demo_player.md)
+
+#### Server
 
 [Server Setup](server_setup.md)
 
@@ -38,7 +40,7 @@ Your question might already been asked by others. Try searching though the [FAQ]
 [Server Tuning](server_tuning.md)
 
 
-###Hacking and Development
+### Hacking and Development
 
 [Hacking on source](hacking.md)
 
@@ -47,7 +49,7 @@ Your question might already been asked by others. Try searching though the [FAQ]
 [Source Formatting](nomenclature.md)
 
 
-###Other
+### Other
 
 [Licensing, Modifications and Donations](licensing_misc.md)
 

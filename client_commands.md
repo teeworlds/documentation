@@ -21,9 +21,6 @@ All these commands can be executed in the console. To open the console, press th
 |`screenshot`|	screenshot|	Take a screenshot|
 |`rcon`|	rcon command|	Execute the command in rcon|
 |`rcon_auth`|	rcon_auth password|	Authenticate with rcon|
-|`play`|	play filename|	Play the file in the demo player|
-|`record`|	record filename|	Start a recording to the specified file|
-|`stoprecord`| stoprecord|	Stop the recording|
 |`add_favorite`|	add_favorite host:port|	Add the server as a favorite|
 |`remove_favourite`|	remove_favourite host:port|	Remove the server from your favourites|
 |`add_friend`|	add_friend name clan|	Add the player to your friendlist|
@@ -70,6 +67,15 @@ All these commands can be executed in the console. To open the console, press th
 |`dump_remote_console`|	dump\_remote\_console|	Dump the remote console|
 |`team`|	team team_id|	Switch to the specified team (0 = red, 1 = blue, -1 = spectators)|
 |`kill`|	kill|	Kill yourself|
+
+### Demo recorder/player commands
+
+|Command |  Syntax | Description|
+| ------ | ------- | ---------- |
+|`play`|	play filename|	Play the file in the demo player|
+|`record`|	record filename|	Start a recording to the specified file (omit filename to use timestamp)|
+|`stoprecord`| stoprecord|	Stop the recording|
+|`add_demomarker`| add_demomarker|	Add a demo marker at the current time (while recording a demo)|
 
 ### Startup commands
 
