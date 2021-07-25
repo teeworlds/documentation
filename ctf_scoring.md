@@ -1,3 +1,5 @@
+# Capture the Flag (CTF) scoring
+
 ## Team score
 
 - +1 for taking the flag from the flag stand

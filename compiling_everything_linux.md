@@ -6,7 +6,7 @@
 
 Bam is the [build system made by matricks](http://matricks.github.io/bam/) used in Teeworlds.
 
-#### Setup
+## Setup
 1. Use your package manager (apt-get, emerge or whatever is used on your distribution) to install the following (you will need the header files):
     - gcc
     - g++
@@ -25,7 +25,7 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
     - `$ cd ..`
 
 
-#### Compiling
+## Compiling Teeworlds v0.7.x
 1. `cd teeworlds-version`
     - Changes to the teeworlds source directory
 2. `./bam/bam config`
@@ -47,7 +47,7 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 4. The compiled game is located at `teeworlds-version/build/<arch>`
 
 
-# For Teeworlds v0.6.x and earlier
+## Compiling Teeworlds v0.6.x and earlier
 
 1. `cd teeworlds-version`
     - Changes to the teeworlds source directory

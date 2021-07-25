@@ -1,6 +1,6 @@
 # FAQ
 
-### Running the game
+## Running the game
 
 **Q: The game does not start on Windows, I get a "VCRUNTIME140.dll was not found" error**
 
@@ -33,7 +33,7 @@ You are running a 64-bit application on a 32-bit system. [Download Teeworlds for
 **A:** You may want to enable raw mouse input. Open the user console (`f1` by default) and write `inp_grab 1`.
 
 
-### Server related
+## Server related
 
 **Q: How do I setup a server?**
 
@@ -58,7 +58,7 @@ You are running a 64-bit application on a 32-bit system. [Download Teeworlds for
 - Make sure you use a map that is in the data/maps-folder in the teeworlds directory, otherwise it wont work.
 - Make sure the port isn't used.
 
-### Hacking the source
+## Hacking the source
 
 **Q: How do I compile the source?**
 

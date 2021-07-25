@@ -2,13 +2,13 @@
 
 This doc will guide you through the basics of setting up a server on Linux and Windows.
 
-### Port forwarding
+## Port forwarding
 
 If you want other players to be able to play on the server via internet, you have to forward a port to the server (default is 8303). http://portforward.com/ has a lot information on how to do this.
 
 The master server will warn if players can't connect.
 
-### Configuring the server
+## Configuring the server
 
 To configure the server you need to create a .cfg-file so that the server knows what to do. Use your favorite text editor to create a config that uses the following syntax:
 
@@ -21,19 +21,19 @@ To find the available settings, read the [Server Settings](server_settings.md) d
 
 You can find example configurations below.
 
-### Starting the server
+## Starting the server
 
 To start the server you must specify a config for it to load. This is done by adding the flag `-f` to the server start command, like this:
 `teeworlds_srv -f serverconfig.cfg`
 
-##### Windows
+### Windows
 
 Start the command tool by pressing `Win`+`R` write `cmd` followed by enter, and use the command `cd` to navigate to the teeworlds directory.
 
 When you get there, start the server by typing `teeworlds_srv.exe -f serverconfig.cfg`
 where you replace `serverconfig.cfg` with the name of your config file.
 
-##### Linux
+### Linux
 
 Open up a terminal and use the command `cd` to enter the teeworlds directory.
 
@@ -41,13 +41,13 @@ To start the server, type
  `teeworlds_srv -f serverconfig.cfg`
 where you replace `serverconfig.cfg` with the name of your config file.
 
-### Remote console
+## Remote console
 
 To be able to execute server commands while playing, there is a remote console. To open it, press `F2` (or the key you have chosen). You will now be asked to enter a password. If you did not set up a password in your config, a random one will have been generated: check the server log.
 
 To find out what commands that are available on the server, read the [Server Commands](server_commands.md) doc.
 
-### Support
+## Support
 
 If you have any questions, read the [FAQ](support/faq.md). If you can't find an answer, please use the support forum.
 

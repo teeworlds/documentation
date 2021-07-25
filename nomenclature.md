@@ -1,7 +1,6 @@
-#All code in teeworlds should match this code guidelines.
+# All code in teeworlds should match this code guidelines.
 
-
-### Brackets and Such
+## Brackets and Such
 
 Hardtabs, tabsize 4.
 
@@ -18,15 +17,15 @@ if(MyInt != 5)
 ContinueMyStuff();
 ```
 
-### Comments
+## Comments
 
 Use `//` style comments for most things. Larger blocks of comments can use `/* */` style but shouldn't be used inside function bodies.
 
-### Identifiers
+## Identifiers
 
 Use [CamelCase](http://en.wikipedia.org/wiki/CamelCase) with upper case on the first letter as well.
 
-### Variable Prefixes
+## Variable Prefixes
 
 `m_`
 
@@ -50,7 +49,7 @@ Fixed array
 
 Combine them appropriately.
 
-### Class Prefixes
+## Class Prefixes
 
 `C`
 
@@ -60,11 +59,11 @@ Class, CMyClass, This goes for structures as well.
 
 Interface, IMyClass
 
-### Null pointers
+## Null pointers
 
 Use `0` or `0x0` instead of `NULL`. Because Teeworlds uses C++03, `nullptr` does not work either.
 
-### Passing Variables
+## Passing Variables
 
 Pass by value for smaller things, const reference for larger objects. By pointer if the function needs to modify the object. Don't cast values as just a reference. If the function needs to modify it, use a pointer to show it as well.
 
@@ -76,7 +75,7 @@ void MyFunction(int *pMyVar);
 void MyFunction(int &pMyVar); // Never do this!
 ```
 
-### Examples
+## Examples
 
 ```
 class IMyInterface

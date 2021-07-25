@@ -2,11 +2,11 @@
 
 There are lots of server settings to change all from the score limit, to the speed of the shotgun. This doc will show you what those are, not how to set up a server. Read the [Server Setup](server_setup.md) doc to learn that. For server commands, see the [Server Commands](server_commands.md) doc.
 
-### Physics
+## Physics
 
 To change the game's physics, read the [Server Tuning](server_tuning.md) doc.
 
-### Engine
+## Engine
 
 `*` means it can't be changed while running the server.
 
@@ -41,7 +41,7 @@ To change the game's physics, read the [Server Tuning](server_tuning.md) doc.
 |`sv_skill_level`|Skill level shown in serverbrowser (0 = casual, 1 = normal, 2 = competitive)|1|
 |`sv_spamprotection`|Spam protection|1|
 
-### Game
+## Game
 
 | Settings | Description | Default |
 | -------- | ----------- | ------- |
@@ -68,7 +68,7 @@ To change the game's physics, read the [Server Tuning](server_tuning.md) doc.
 |`sv_vote_spectate_rejoindelay`|How many minutes to wait before a player can rejoin after being moved to spectators by vote|3|
 |`sv_warmup`|Number of seconds to do warmup before match starts (0 disables, -1 all players ready)|0|
 
-### External console
+## External console
 
 | Settings | Description | Default |
 | -------- | ----------- | ------- |

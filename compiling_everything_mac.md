@@ -6,7 +6,7 @@
 
 Bam is the [build system made by matricks](http://matricks.github.io/bam/) used in Teeworlds.
 
-#### Setup
+## Setup
 1. Install Xcode from the Appstore or install Xcode Command Line Tools `xcode-select --install`. 
 2. Install libsdl using [brew](https://brew.sh/) `brew install sdl2`
 3. Install Freetype using [brew](https://brew.sh/) `brew install freetype`
@@ -18,7 +18,7 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
     - `$ cd ..`
 
 
-#### Compiling
+## Compiling Teeworlds v0.7.x
 1. `cd teeworlds-version`
     - Changes to the teeworlds source directory
 2. `./bam/bam config`
@@ -39,7 +39,7 @@ Bam is the [build system made by matricks](http://matricks.github.io/bam/) used 
 4. The compiled game is located at `teeworlds-version/build/<arch>`
 
 
-# For Teeworlds v0.6.x and earlier
+## Compiling Teeworlds v0.6.x and earlier
 
 1. `cd teeworlds-version`
     - Changes to the teeworlds source directory

@@ -5,7 +5,7 @@ Tuning is a way to edit physics and weapon settings so that the server is more c
 `tune gravity 1.0`
 where you replace `gravity 1.0` with the variable and value you want.
 
-### Physics tuning
+## Physics tuning
 
 |Tuning|	Description|	Default|  Unit|
 | ------ | ---------- | -------- | ----- |
@@ -28,7 +28,7 @@ where you replace `gravity 1.0` with the variable and value you want.
 |`player_collision`|	Enable player collisions|	1|
 |`player_hooking`|	Enable player vs player hooking|	1|
 
-### Weapon tuning
+## Weapon tuning
 
 |Tuning	|Description|	Default|  Unit|
 | ------ | ---------- | -------- | ----- |
