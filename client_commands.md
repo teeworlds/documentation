@@ -2,11 +2,11 @@
 
 There are lots of client commands that can be executed in the console, or in the configuration file. This doc shows them all. If you look for client settings, read the [Client Settings](client_settings.md) doc. To find out how to find the config file, read the [Client Config](client_config.md) doc.
 
-### Console
+## Console
 
 All these commands can be executed in the console. To open the console, press the console-key (f1 is default).
 
-### Engine
+## Engine
 
 |Command |  Syntax | Description|
 | ------ | ------- | ---------- |
@@ -22,7 +22,7 @@ All these commands can be executed in the console. To open the console, press th
 |`+toggle`|`+toggle config_option value1 value2`|Toggle config value via keypress|
 |`snd_toggle`|`snd_toggle`|Toggle sounds on and off|
 
-### Servers
+## Servers
 
 |Command |  Syntax | Description|
 | ------ | ------- | ---------- |
@@ -34,7 +34,7 @@ All these commands can be executed in the console. To open the console, press th
 |`add_favorite`|`add_favorite host:port [password]`|Add the server as a favorite, optionally saving the password|
 |`remove_favorite`|`remove_favorite host:port`|Remove the server from your favorites|
 
-### Gameplay
+## Gameplay
 
 |Command |  Syntax | Description|
 | ------ | ------- | ---------- |
@@ -56,7 +56,7 @@ All these commands can be executed in the console. To open the console, press th
 |`ready_change`|`ready_change`|Change ready state|
 |`kill`|`kill`|Respawn|
 
-### Social
+## Social
 
 |Command |  Syntax | Description|
 | ------ | ------- | ---------- |
@@ -75,7 +75,7 @@ All these commands can be executed in the console. To open the console, press th
 |`add_ignore`|`add_ignore name clan`|Add the player to your ignorelist|
 |`remove_ignore`|`remove_ignore name clan`|Remove the player from your ignorelist|
 
-### Key binds
+## Key binds
 
 |Command |  Syntax | Description|
 | ------ | ------- | ---------- |
@@ -84,7 +84,7 @@ All these commands can be executed in the console. To open the console, press th
 |`unbindall`|`unbindall`|Unbind all the keys|
 |`binds`|`binds`|List all key binds|
 
-### Spectating
+## Spectating
 |Command |  Syntax | Description|
 | ------ | ------- | ---------- |
 |`+spectate`|`+spectate`|Show the spectator mode selector|
@@ -93,7 +93,7 @@ All these commands can be executed in the console. To open the console, press th
 |`spectate_previous`|`spectate_previous`|Spectate the previous player|
 |`set_position`|`set_position index x y`|Set saved camera position at index to be the position (x, y)|
 
-### Console
+## Console
 
 |Command |  Syntax | Description|
 | ------ | ------- | ---------- |
@@ -104,7 +104,7 @@ All these commands can be executed in the console. To open the console, press th
 |`clear_remote_console`|`clear_remote_console`|Clear the remote console|
 |`dump_remote_console`|`dump_remote_console`|Write remote console contents to a text file|
 
-### Demo recorder/player
+## Demo recorder/player
 
 |Command |  Syntax | Description|
 | ------ | ------- | ---------- |
@@ -113,7 +113,7 @@ All these commands can be executed in the console. To open the console, press th
 |`stoprecord`|`stoprecord`|Stop the recording|
 |`add_demomarker`|`add_demomarker`|Add a demo marker at the current time (while recording a demo)|
 
-### Startup commands
+## Startup commands
 
 To start Teeworlds on Windows with the debug console open, use `teeworlds.exe -c` or `teeworlds.exe --console`.
 It is also possible to add the parameter to a windows shortcut.

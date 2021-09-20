@@ -2,7 +2,7 @@
 
 There are lots of client settings available, and this doc will guide you through them. If you are looking for client commands, read the [Client Commands](client_commands.md) doc. To find out how to find the config file, read the [Client Config](client_config.md) doc.
 
-### Engine
+## Engine
 
 | Setting       | Description   | Default value  |
 | ------------- | ------------- | -------------- |
@@ -25,7 +25,7 @@ There are lots of client settings available, and this doc will guide you through
 |`cl_show_welcome`|Show initial set-up dialog|1|
 |`cl_version_server`|Server to use to check for new versions|`"version.teeworlds.com"`|
 
-### Player
+## Player
 
 | Setting       | Description   | Default value  |
 | ------------- | ------------- | -------------- |
@@ -52,7 +52,7 @@ There are lots of client settings available, and this doc will guide you through
 |`player_use_custom_color_hands`|Toggles usage of custom colors for hands|1|
 |`player_use_custom_color_marking`|Toggles usage of custom colors for marking|1|
 
-### Ingame
+## Ingame
 
 |Settings       | Description   | Default value  |
 | ------------- | ------------- | -------------- |
@@ -82,7 +82,7 @@ There are lots of client settings available, and this doc will guide you through
 |`cl_statboard_infos`|Mask of info to display on the global statboard|1259|
 |`cl_warning_teambalance`|Warn about team balance|1|
 
-#### Camera
+### Camera
 
 |Settings       | Description   | Default value  |
 | ------------- | ------------- | -------------- |
@@ -94,7 +94,7 @@ There are lots of client settings available, and this doc will guide you through
 |`cl_mouse_max_distance_dynamic`|Mouse max distance, in dynamic camera mode|1000|
 |`cl_mouse_max_distance_static`|Mouse max distance, in static camera mode|400|
 
-### Input
+## Input
 
 |Settings       | Description   | Default value  |
 | ------------- | ------------- | -------------- |
@@ -110,7 +110,7 @@ There are lots of client settings available, and this doc will guide you through
 |`ui_mousesens`|Mouse sensitivity for menus/editor|100|
 |`ui_joystick_sens`|Joystick sensitivity for menus/editor|100|
 
-### Graphics
+## Graphics
 
 |Settings       | Description   | Default value  |
 | ------------- | ------------- | -------------- |
@@ -134,7 +134,7 @@ There are lots of client settings available, and this doc will guide you through
 |`gfx_use_x11xrandr_wm`|Let SDL use the X11 XRandR window manager|1|
 |`gfx_vsync`|Activate VSync|1|
 
-### Sounds
+## Sounds
 
 |Settings       | Description   | Default value  |
 | ------------- | ------------- | -------------- |
@@ -147,7 +147,7 @@ There are lots of client settings available, and this doc will guide you through
 |`snd_rate`|Sound mixing rate|48000|
 |`snd_volume`|Sound volume|100|
 
-### Menu
+## Menu
 
 |Settings       | Description   | Default value  |
 | ------------- | ------------- | -------------- |
@@ -157,7 +157,7 @@ There are lots of client settings available, and this doc will guide you through
 |`cl_show_start_menu_images`|Show start menu images|1|
 |`cl_skip_start_menu`|Skip the start menu|0|
 
-#### Camera
+### Camera
 
 |Settings       | Description   | Default value  |
 | ------------- | ------------- | -------------- |
@@ -165,7 +165,7 @@ There are lots of client settings available, and this doc will guide you through
 |`cl_rotation_radius`|Menu camera rotation radius|30|
 |`cl_rotation_speed`|Menu camera rotations in seconds|40|
 
-### User interface
+## User interface
 
 |Settings       | Description   | Default value  |
 | ------------- | ------------- | -------------- |
@@ -178,7 +178,7 @@ There are lots of client settings available, and this doc will guide you through
 |`ui_settings_page`|Interface settings page|0|
 |`ui_wideview`|Extended menus GUI|0|
 
-### Server & Demo browser
+## Server & Demo browser
 
 The individual server browser filter settings are store separately in the file `ui_settings.json` in the same folder as the config file.
 
@@ -191,7 +191,7 @@ The individual server browser filter settings are store separately in the file `
 |`br_demo_sort_order`|Sort order (0 is ascending and 1 is descending) in the demo browser|0|
 |`br_max_requests`|Number of requests to use when refreshing server browser|25|
 
-### Editor
+## Editor
 
 | Setting       | Description   | Default value  |
 | ------------- | ------------- | -------------- |

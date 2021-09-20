@@ -2,7 +2,7 @@
 
 To kick players from the server and to do other similar things, you have to use the server commands. This doc will show you these. If you want to know how to set up a server, read the [Server Setup](server_setup.md) doc. For server settings, see the [Server Settings](server_settings.md) doc.
 
-### Engine
+## Engine
 
 | Command | Syntax     | Description |
 | ------- | ---------- | ----------- |
@@ -23,7 +23,7 @@ To kick players from the server and to do other similar things, you have to use 
 |`tune_reset`|`tune_reset`|Reset all tuning variables to defaults|
 |`tunes`|`tunes`|List all tuning variables and their values|
 
-### Game
+## Game
 
 | Command | Syntax     | Description |
 | ------- | ---------- | ----------- |
@@ -38,7 +38,7 @@ To kick players from the server and to do other similar things, you have to use 
 |`shuffle_teams`|`shuffle_teams`|Shuffle the current teams|
 |`swap_teams`|`swap_teams`|Swap the current teams|
 
-### Players
+## Players
 
 | Command | Syntax     | Description |
 | ------- | ---------- | ----------- |
@@ -49,7 +49,7 @@ To kick players from the server and to do other similar things, you have to use 
 |`status`|`status`|List the player's id, ip, name and score|
 |`unban`|`unban ip`|Unban the ip|
 
-### Votes
+## Votes
 
 | Command | Syntax     | Description |
 | ------- | ---------- | ----------- |

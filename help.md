@@ -19,7 +19,7 @@ Your question might already been asked by others. Try searching though the [FAQ]
 
 [CTF Scoring](ctf_scoring.md)
 
-#### Client
+### Client
 
 [Client Settings](client_settings.md)
 
@@ -29,7 +29,7 @@ Your question might already been asked by others. Try searching though the [FAQ]
 
 [Demo Player](demo_player.md)
 
-#### Server
+### Server
 
 [Server Setup](server_setup.md)
 
