@@ -16,7 +16,7 @@ To kick players from the server and to do other similar things, you have to use 
 |`record`|`record filename`|Start a recording to the specified file (omit filename to use timestamp)|
 |`save_config`|`save_config [file]`|Save config to file (or default file if none)|
 |`say`|`say text`|Send a chat message|
-|`shutdown`|`shutdown`|Shut the server down|
+|`shutdown`|`shutdown [reason]`|Shut the server down|
 |`stoprecord`|`stoprecord`|Stop the recording|
 |`toggle`|`toggle config_option value1 value2`|Toggle config value|
 |`tune`|`tune variable value`|Tune the variable. See the [Server Tuning](server_tuning.md) doc|
