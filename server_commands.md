@@ -19,8 +19,8 @@ To kick players from the server and to do other similar things, you have to use 
 |`shutdown`|`shutdown [reason]`|Shut the server down|
 |`stoprecord`|`stoprecord`|Stop the recording|
 |`toggle`|`toggle config_option value1 value2`|Toggle config value|
-|`tune`|`tune variable value`|Tune the variable. See the [Server Tuning](server_tuning.md) doc|
-|`tune_reset`|`tune_reset`|Reset all tuning variables to defaults|
+|`tune`|`tune variable [value]`|Tune the variable or show its current value. See the [Server Tuning](server_tuning.md) doc|
+|`tune_reset`|`tune_reset [variable]`|Reset all or one tuning variable to default|
 |`tunes`|`tunes`|List all tuning variables and their values|
 
 ## Game
