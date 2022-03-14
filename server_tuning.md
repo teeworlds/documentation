@@ -37,7 +37,7 @@ where you replace `gravity 1.0` with the variable and value you want.
 |`gun_lifetime`|	Gun lifetime|	2.0|sec
 |`shotgun_curvature`|	Shotgun curvature|	1.25|
 |`shotgun_speed`|	Shotgun speed|	2750.0|pixels / sec
-|`shotgun_speeddiff`|	(UNUSED) Speed difference between shotgun bullets|	0.8|
+|`shotgun_speeddiff`|	Speed difference between shotgun bullets|	0.8|
 |`shotgun_lifetime`|	Shotgun lifetime|	0.20|sec
 |`grenade_curvature`|	Grenade curvature|	7.0|
 |`grenade_speed`|	Grenade speed|	1000.0|pixels / sec
